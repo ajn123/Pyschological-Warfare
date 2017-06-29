@@ -22,9 +22,35 @@ var showEmailModel = function() {
 	$('.ui.basic.modal').modal('show');
 };
 
-var onApprove = function() {
-	prompt("Rock, Paper, or Scissors ?").toLowerCase();
+
+var showMessage = function(status) {
+  $('.ui.message').removeClass("red green");
+
+  if (status === "success" ) {
+      $('.ui.message').closest('.message').addClass('green'); 
+
+      $('.ui.message > .header').replaceWith("<div class=\"header centered\"> Thanks for signing up! <div>");
+  }
+  else {
+       $('.ui.message').closest('.message').addClass('red'); 
+  $('.ui.message > .header').replaceWith("<div class=\"header centered\"><a class=\"item\" onclick=\"showEmailModel();\">Oops! Click here to try Again</a></div>")
+  }
+
+  // show message
+  if ($('.ui.message').hasClass('hidden')) {
+     $('.message .close').closest('.message').transition('slide down');  
+  }
+      
+if (status === "success") {
+ $('.message .close').closest('.message').delay(5000).queue(function() {
+       $(this).transition('slide up').dequeue(); 
+  }
+  );
 }
+else {}
+
+
+};
 
   $(document)
     .ready(function() {
@@ -47,6 +73,20 @@ var onApprove = function() {
         on: 'hover'
       });
 
-      showEmailModel();
+      $('.main.menu').visibility({
+        type: 'fixed'
+      });
+
+          // for closing messages
+      $('.message .close').on('click', function() {
+    $(this)
+      .closest('.message')
+      .transition('fade')
+    ;
+  })
+;
 
 });
+
+
+
