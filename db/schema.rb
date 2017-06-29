@@ -15,9 +15,10 @@ ActiveRecord::Schema.define(version: 20170629220800) do
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.text "content"
-    t.string "author"
+    t.string "author", default: "A.J. Norton"
     t.boolean "published", default: false
     t.date "written_at_date"
+    t.string "header_image", default: "logo.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
