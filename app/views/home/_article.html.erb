@@ -1,0 +1,42 @@
+  
+<div class="ui twelve wide column">
+
+<h1 class="ui header left aligned">
+  <%= article.title %>
+
+  <div class="sub header">
+    <%= article.created_at %>
+  </div>
+</h1>
+
+  <div class="ui horizontal divider">
+    Share
+  </div>
+
+  <div class="spaced">
+     <button class="ui facebook button">
+  <i class="facebook icon"></i>
+  Facebook
+</button>
+<button class="ui twitter button">
+  <i class="twitter icon"></i>
+  Twitter
+</button>
+<button class="ui vk button">
+  <i class="mail icon"></i>
+  Email
+</button>
+    </div>
+
+   <div class="ui horizontal divider">
+   ENJOY
+    
+  </div>
+
+    <div class="ui raised very padded container segment">
+      <%= image_tag("#{article.header_image}",  class: "ui container fluid image") %>
+    </div>
+    <% 10.times do |t| %>
+      <p><%= article.content %></p>
+    <% end %>
+    </div>

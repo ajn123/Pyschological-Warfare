@@ -10,7 +10,38 @@
 
   <body>
 
-    <%= yield %>
+
+ <div class="ui fixed inverted menu">
+    <div class="ui container">
+    <%= link_to(root_path , class: "header item") do %>
+
+        <%= image_tag("logo80x80.png", class: "logo") %>
+    Psycho Warfare
+    <% end %>
+
+      <%= link_to("Contact", "#" , class: "item") %>
+      
+    </div>
+  </div>
+
+    <%= render 'masthead' %>
+
+   <div class="ui column center aligned container celled grid vertical stripe segment">
+  
+     <div class="ui twelve wide column">
+
+      <%= yield %>
+
+      </div>
+
+        <div class="ui four wide column">
+          
+          <%= render 'sidebar' %>
+
+        </div>
+
+
+   </div>
     
     <%= render 'emailModal' %>
     <%= render 'footer' %>

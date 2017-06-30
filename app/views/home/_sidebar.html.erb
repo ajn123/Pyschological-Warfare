@@ -1,0 +1,71 @@
+
+
+  <div class="ui horizontal divider">
+    Listen On
+  </div>
+  <div class="ui stacked segments">
+
+  <%= link_to "#" do %>
+  <div class="ui blue  segment">
+  <i class="music icon"></i>
+    <p>iTunes</p>
+
+  </div>
+
+<% end %>
+<%= link_to "#" do %>
+  <div class="ui yellow  segment">
+  
+  <div class="left floated">
+    
+  <%=image_tag("stitcher-logo-large.png", class: "", size: "30x30", alt: "Stitcher") %>
+ 
+  </div>
+
+    <p>Stitcher</p>
+  </div>
+  
+<% end %>
+
+  <%= link_to "#" do %>
+  
+  <div class="ui blue segment">
+  <%=image_tag("overcast.svg", class: " left floated", size: "30x30", alt: "Overcast") %>
+    <p>Overcast</p>
+  </div>
+ 
+</div>
+
+<% end %>
+
+  <div class="ui horizontal divider">
+    Popular Posts
+  </div>
+<div class="ui cards">
+<% Article.all.each do |t| %>
+  <div class="black card">
+   <%= link_to show_page_path(t) do %>
+    <div class="content">
+      <div class="header"><%= t.title %> </div>
+    </div>
+  <% end %>
+  </div>
+
+<% end %>
+</div>
+
+<div class="ui horizontal divider">
+    Topics
+  </div>
+
+
+<div class="ui divided selection list tag labels">
+  
+  <% 7.times do |t| %>
+<a class="ui label">
+    Productivity
+  </a>
+
+<% end %>
+</div>
+

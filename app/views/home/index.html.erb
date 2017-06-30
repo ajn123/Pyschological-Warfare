@@ -1,31 +1,6 @@
 
 
-<!-- Following Menu -->
-  <div class="ui inverted vertical masthead center aligned segment">
-
-    <div class="ui container">
-      <div class="ui large secondary inverted pointing menu">
-        <a class="toc item">
-          <i class="sidebar icon"></i>
-        </a>
-        <a class="active item">Home</a>
-        <a class="item">Work</a>
-        <a class="item">Company</a>
-        <a class="item">Careers</a>
-        <div class="right item">
-        </div>
-      </div>
-    </div>
-
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-        Imagine-a-Company
-      </h1>
-      <h2>Do whatever you want when you want to.</h2>
-      <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
-    </div>
-  </div>
-
+<!--
 <div class="overlay">
       <div class="ui labeled icon vertical menu">
         <% @social.each do |k, v| %>
@@ -35,126 +10,9 @@
     </div>
 
 
- <div class="ui  column center aligned container celled grid vertical stripe segment">
-  
-    <div class="ui twelve wide column">
-
-<h1 class="ui header left aligned">
-  Your Title HERE
-  <div class="sub header">Sub Header</div>
-</h1>
-
-  <div class="ui horizontal divider">
-    Share
-  </div>
-
-  <div class="spaced">
-     <button class="ui facebook button">
-  <i class="facebook icon"></i>
-  Facebook
-</button>
-<button class="ui twitter button">
-  <i class="twitter icon"></i>
-  Twitter
-</button>
-<button class="ui vk button">
-  <i class="mail icon"></i>
-  Email
-</button>
-    </div>
-
-   <div class="ui horizontal divider">
-   ENJOY
-    
-  </div>
-
-    <div class="ui raised very padded container segment">
-      <%= image_tag("logo.png", class: "ui container fluid image") %>
-    </div>
-
-  
-
-    <% 10.times do |t| %>
-
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-  
-    <% end %>
-    </div>
-    <div class="ui four wide column">
-     <div class="ui horizontal divider">
-    Listen On
-  </div>
-  <div class="ui stacked segments">
-
-  <%= link_to "#" do %>
-  <div class="ui blue  segment">
-  <i class="music icon"></i>
-    <p>iTunes</p>
-
-  </div>
-
-<% end %>
-<%= link_to "#" do %>
-  <div class="ui yellow  segment">
-  
-  <div class="left floated">
-    
-  <%=image_tag("stitcher-logo-large.png", class: "", size: "30x30", alt: "Stitcher") %>
- 
-  </div>
-
-    <p>Stitcher</p>
-  </div>
-  
-<% end %>
-
-  <%= link_to "#" do %>
-  
-  <div class="ui blue segment">
-  <%=image_tag("overcast.svg", class: " left floated", size: "30x30", alt: "Overcast") %>
-    <p>Overcast</p>
-  </div>
- 
-</div>
-
-<% end %>
-
-  <div class="ui horizontal divider">
-    Popular Posts
-  </div>
-<div class="ui cards">
-<% Article.all.each do |t| %>
-  <div class="black card">
-   <%= link_to show_page_path(t) do %>
-    <div class="content">
-      <div class="header"><%= t.title %> </div>
-    </div>
-  <% end %>
-  </div>
-
-<% end %>
-</div>
-
-<div class="ui horizontal divider">
-    Topics
-  </div>
+-->
+<%= render :partial => "article", collection: Article.all %>
 
 
-<div class="ui divided selection list tag labels">
-  
-  <% 7.times do |t| %>
-<a class="ui label">
-    Productivity
-  </a>
-
-<% end %>
-</div>
-
-
-
-
-  </div>
-
-  </div>
 
 

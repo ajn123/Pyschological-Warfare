@@ -59,3 +59,9 @@ gem 'semantic-ui-sass', git: 'https://github.com/doabit/semantic-ui-sass.git'
 
 gem 'jquery-rails'
 
+gem 'rack-mini-profiler'
+
+gem 'bullet', group: 'development'
+
+gem 'ruby-growl'
+
