@@ -34,21 +34,13 @@
         display: block;
       }
       .masthead.segment {
-        max-height: 350px;
-      }
-      .masthead h1.ui.header {
-        font-size: 2em;
-        margin-top: 1.5em;
-      }
-      .masthead h2 {
-        margin-top: 0.5em;
-        font-size: 1.5em;
+        min-height: 350px;
       }
     }
 
 
  .masthead.segment {
-      min-height: 300px;
+      min-height: 350px;
       padding: 1em 0em;
     }
     .masthead .logo.item img {
@@ -58,16 +50,17 @@
       margin-left: 0.5em;
     }
     .masthead h1.ui.header {
-      margin-top: 3em;
-      margin-bottom: 0em;
       font-size: 4em;
       font-weight: normal;
-      margin-top: 80px;
     }
     .masthead h2 {
+
+      margin-top: 3em;
       font-size: 1.7em;
       font-weight: normal;
     }
+    
+
 
 
  .overlay {

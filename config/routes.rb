@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
 
 
+  get 'home/contact'
+
   root "home#index"
   get 'home/index'
   post '/create_email', to: 'home#create_email', as: :create_email
