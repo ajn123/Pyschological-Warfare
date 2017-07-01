@@ -5,7 +5,7 @@ class HomeController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
-    
+    @comments = @article.comments.with_state([:draft, :published])
   end
 
 

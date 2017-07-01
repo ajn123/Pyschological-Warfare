@@ -1,1 +1,4 @@
 <%= render "article", article: @article %>
+
+
+<%= render partial: 'the_comments/tree', locals: { commentable: @article, comments_tree: @comments } %>

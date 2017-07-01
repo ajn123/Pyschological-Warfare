@@ -65,3 +65,8 @@ gem 'bullet', group: 'development'
 
 gem 'ruby-growl'
 
+gem "the_comments", "~> 2.2.1"
+
+gem 'haml'                # or gem 'slim'
+gem 'awesome_nested_set'  # or same gem
+

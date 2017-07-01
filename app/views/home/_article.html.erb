@@ -40,6 +40,15 @@
       <p><%= article.content %></p>
     <% end %>
 
+  <h1>
+  <% if article.comments.exists? %>
+   <%= link_to("View Comments (#{article.comments_sum})",  show_page_path(article, anchor: "comment_#{article.comments.first.anchor}")) %>
+  <% else %>
+   <%= link_to("View Comments (#{article.comments_sum})",  show_page_path(article, anchor: "comment")) %>
+   
+  <% end %>
+  </h1>
+    
       <div class="ui horizontal divider">
     
   </div>

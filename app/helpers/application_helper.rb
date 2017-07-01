@@ -7,4 +7,8 @@ module ApplicationHelper
 	  when :notice then "ui blue message"
 	  end
 	end
+
+	def current_user
+		User.first  
+  end
 end

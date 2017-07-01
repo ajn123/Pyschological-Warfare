@@ -7,6 +7,7 @@ class CreateArticles < ActiveRecord::Migration[5.1]
       t.boolean :published, default: false 
       t.date :written_at_date
       t.string :header_image, default: "logo.png"
+      t.integer :user_id
 
       t.timestamps
     end
