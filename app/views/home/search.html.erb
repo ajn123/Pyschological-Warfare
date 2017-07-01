@@ -1,0 +1,35 @@
+<a class="ui blue basic label">
+        <%= @tag %>
+      </a>
+
+       <div class="ui horizontal divider">
+    	Results
+  </div>
+
+<div class="ui divided items">
+
+ 
+ <% @articles.each do |article| %>
+
+  <%= link_to(show_page_path(article), class: "ui item")  do %>
+    <div class="ui small image">
+      <%= image_tag(article.header_image, size: "100x100", alt: article) %>
+    </div>
+    <div class="content">
+      <div class="header">
+        <%= article.title %>
+      </div>
+      <div class="ui clearing divider"></div>
+      <div class="description">
+        <p> <%= truncate(article.content, length: 200) %> </p>
+      </div>
+      
+    </div>
+  <% end %>
+ 
+
+
+<% end %>
+
+  
+</div> 

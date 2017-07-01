@@ -34,7 +34,9 @@
     <p>Overcast</p>
   </div>
  
+
 </div>
+
 
 <% end %>
 
@@ -59,13 +61,13 @@
   </div>
 
 
-<div class="ui divided selection list tag labels">
+<div class="ui divided selection list labels">
   
-  <% 7.times do |t| %>
-<a class="ui label">
-    Productivity
-  </a>
 
+    
+  <%  Article.tag_counts.each do |t| %>
+    <%= link_to "#{t} (#{t.count}) ", search_path(t.name), class: "ui teal basic label"  %>
+  
 <% end %>
 </div>
 

@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
 
 
+
   get 'home/contact'
 
   root "home#index"
@@ -9,6 +10,8 @@ Rails.application.routes.draw do
   post '/create_email', to: 'home#create_email', as: :create_email
 
   get 'home/show/:id', to: 'home#show', as: :show_page
+  
+  get 'home/search/:tag', to: "home#search", as: :search
   
 resources :articles
   resources :users

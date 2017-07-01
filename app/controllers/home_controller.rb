@@ -20,6 +20,13 @@ class HomeController < ApplicationController
   end
 
 
+  def search
+    @tag = params[:tag]
+    @articles = Article.tagged_with(@tag)
+    
+  end
+
+
   private
   	def user_params
   		params.require(:user).permit(:name, :email)
