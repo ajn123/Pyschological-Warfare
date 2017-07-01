@@ -79,6 +79,11 @@ else {}
         type: 'fixed'
       });
 
+      //$(".userpic > img").css({"float": "left","color":"white", "height": "40px", "width": "40px"});
+
+      //$('.userpic')
+       //$('.userbar').css({"font-weight": "bold"});
+
           // for closing messages
       $('.message .close').on('click', function() {
     $(this)
