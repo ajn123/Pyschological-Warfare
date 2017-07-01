@@ -11,7 +11,6 @@ class HomeController < ApplicationController
 
 
   def create_email
-
     @new_user = User.new(user_params)
 
   	respond_to do |f|
