@@ -66,7 +66,12 @@
 
     
   <%  Article.tag_counts.each do |t| %>
-    <%= link_to "#{t} (#{t.count}) ", search_path(t.name), class: "ui teal basic label"  %>
+    <%= link_to search_path(t.name), class: "ui teal basic label" do %>
+      <%= t.name %>
+     <div class="detail">
+       (<%= t.count %>)
+     </div>
+    <% end %>
   
 <% end %>
 </div>
