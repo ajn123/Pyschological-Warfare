@@ -85,15 +85,18 @@ else {}
        //$('.userbar').css({"font-weight": "bold"});
 
           // for closing messages
-      $('.message .close').on('click', function() {
-    $(this)
-      .closest('.message')
-      .transition('fade')
-    ;
-  })
-;
+      $('.message .close').on('click', function() { $(this).closest('.message').transition('fade');});
+
+      document.addEventListener('turbolinks:load', function(event) {
+        if (typeof ga === 'function') {
+          ga('set', 'location', event.data.url);
+          ga('send', 'pageview');
+        }
+});
 
 });
+
+
 
 
 
