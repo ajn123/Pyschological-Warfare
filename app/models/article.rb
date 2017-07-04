@@ -1,6 +1,3 @@
-require "haml"
-require "puma"
-
 require "acts-as-taggable-on"
 
 class Article < ApplicationRecord
@@ -29,9 +26,9 @@ class Article < ApplicationRecord
      self.save
   end
   
-
+  # Get tags all excluding itself
   def recommended_articles
-    Article.tagged_with(self.tag_list)
+    Article.tagged_with(self.tag_list).where.not(id: "#{self.id}").sample(5)
   end
 
 

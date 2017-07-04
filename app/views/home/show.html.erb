@@ -1,7 +1,29 @@
 <%= render "article", article: @article %>
 
 
+    <div class="ui raised segments">
+      <div class="ui success header segment">Recommended Posts</div>
+      
+      <% @article.recommended_articles.each do |r| %>
+        <%= link_to show_page_path(r) do %>
+          <div class="ui success segment">
+            <%= r.title %>
+          </div>
+          <% end %>
+        <% end %>
+      </div>
+
+
+  <h1>
+  <% if @article.comments.exists? %>
+   <%= link_to("View Comments (#{@article.comments_sum})",  show_page_path(@article, anchor: "comment_#{@article.comments.first.anchor}")) %>
+  <% else %>
+   <%= link_to("View Comments (#{@article.comments_sum})",  show_page_path(@article, anchor: "comment")) %>
+   
+  <% end %>
+  </h1>
 
 
 <%= render partial: 'the_comments/tree', locals: { commentable: @article, comments_tree: @comments } %>
+
 

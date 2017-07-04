@@ -24,13 +24,9 @@
  <div class="ui fixed inverted menu">
     <div class="ui container">
     <%= link_to(root_path , class: "header item") do %>
-
-        <%= image_tag("logo80x80.png", class: "logo") %>
-    Psycho Warfare
+        <%= image_tag("logo80x80.png", class: "logo") %> Psycho Warfare
     <% end %>
-
-      <%= link_to("About", home_contact_path , class: "item") %>
-      
+      <%= link_to("About", home_contact_path , class: "item") %> 
     </div>
   </div>
 
@@ -40,17 +36,15 @@
   
      <div class="ui twelve wide column">
 
-      <%= yield %>
+       <%= yield %>
 
-      </div>
+     </div>
 
         <div class="ui four wide column">
           
           <%= render 'sidebar' %>
 
         </div>
-
-
    </div>
     
     <%= render 'emailModal' %>
