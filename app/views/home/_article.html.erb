@@ -50,6 +50,19 @@
       <p><%= article.content %></p>
     <% end %>
 
+    <div class=" ui raised segments">
+      <div class="ui green header segment">Recommended Posts</div>
+
+      <% article.recommended_articles.each do |r| %>
+        <%= link_to show_page_path(r) do %>
+        <div class="ui blue segment">
+          <%= r.title %>
+        </div>
+        <% end %>
+      <% end %>
+    </div>
+      
+
   <h1>
   <% if article.comments.exists? %>
    <%= link_to("View Comments (#{article.comments_sum})",  show_page_path(article, anchor: "comment_#{article.comments.first.anchor}")) %>
@@ -58,8 +71,16 @@
    
   <% end %>
   </h1>
+
+
     
       <div class="ui horizontal divider">
+
+
     
-  </div>
-    </div>
+     </div>
+
+
+
+
+</div>

@@ -12,7 +12,7 @@ class Article < ApplicationRecord
 
   # Denormalization methods
   # Check the documentation for information on advanced usage
-    def commentable_title
+  def commentable_title
     title
   end
 
@@ -28,4 +28,11 @@ class Article < ApplicationRecord
      self.tag_list.add(item)
      self.save
   end
+  
+
+  def recommended_articles
+    Article.tagged_with(self.tag_list)
+  end
+
+
 end

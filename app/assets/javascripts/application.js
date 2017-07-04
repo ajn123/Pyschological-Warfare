@@ -54,6 +54,18 @@ else {}
 
 };
 
+
+
+document.addEventListener('turbolinks:load', function(event) {
+  if (typeof ga === 'function') {
+    ga('set', 'location', event.data.url);
+    ga('send', 'pageview');
+  }
+});
+
+
+
+
   $(document)
     .ready(function() {
       // fix main menu to page on passing
@@ -87,12 +99,6 @@ else {}
           // for closing messages
       $('.message .close').on('click', function() { $(this).closest('.message').transition('fade');});
 
-      document.addEventListener('turbolinks:load', function(event) {
-        if (typeof ga === 'function') {
-          ga('set', 'location', event.data.url);
-          ga('send', 'pageview');
-        }
-});
 
 });
 
