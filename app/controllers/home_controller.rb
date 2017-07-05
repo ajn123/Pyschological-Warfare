@@ -1,4 +1,7 @@
 class HomeController < ApplicationController
+
+  before_action :default_values
+
   def index
     @social = {"twitter": "Tweet", "facebook": "Share", "mail": "E-mail"}
   end
@@ -25,6 +28,15 @@ class HomeController < ApplicationController
     @articles = Article.tagged_with(@tag)
     
   end
+
+  def default_values
+    @read_more = false
+    if self.action_name == "index" 
+      @read_more = true
+  
+    end
+     
+  end 
 
 
   private

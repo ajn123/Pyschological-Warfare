@@ -1,6 +1,6 @@
 ---
 title: "YOUR TITLE HERE"
-header_image: URL_HERE 
+header_image: "logo.png" 
 published: true
 written_at_date: DD-MM-2017
 tags: ["Entrepeneurship", "Inspiration"]

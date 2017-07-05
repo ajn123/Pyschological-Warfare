@@ -1,21 +1,29 @@
 ---
 title: "Hello, World!"
-useful_links: { "hello": 'https://www.amazon.com/dp/B002361MLA'} 
-people_mentioned: { "Bill Gates": "https://twitter.com/BillGates"}
-written_at_date: DD-MM-YYYY
+header_image: "helloWorld.JPG"
+useful_links: { "The Power Of Now": 'https://www.amazon.com/dp/B002361MLA',
+								"Bulletproof": "https://blog.bulletproof.com",
+								"Never Eat Alone" : "https://www.amazon.com/dp/B00H6JBFOS",
+								"Unbroken" : "https://www.amazon.com/dp/B003WUYPPG/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
+								} 
+people_mentioned: { "Tim Ferriss": "https://twitter.com/tferriss",
+										"Malcolm Gladwell": "http://gladwell.com/", 
+										}
+
+
+tags: ["Inspiration"]										
+written_at_date: 04-07-2017
 user_id: 1
 ---
 
-**Lorem** ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam elit, dictum eu magna ac, elementum iaculis lacus. Cras sed metus ut ex fringilla tempor. Praesent ut dignissim leo. Suspendisse hendrerit maximus tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce vel quam in est pulvinar blandit sit amet et massa. Quisque id tellus non turpis iaculis vulputate. Duis mattis congue nisi eu ornare. Duis vitae mattis leo. Praesent rutrum congue est, ac feugiat dui feugiat eleifend. Etiam at eleifend neque.
+Hello, World!  My name is Alexander (AJ) Joseph Norton.  Welcome to my first podcast!  I hope to explore the deep dimensions of our minds, leaving no stone unturned.  I want to talk about health, books to read, as well as any other subject of interest.
 
-Praesent ac sapien ut ante luctus bibendum. Ut commodo pellentesque lorem nec scelerisque. Proin eget iaculis dui, in varius nulla. Nullam ut tortor aliquet, luctus est quis, tincidunt turpis. Curabitur vestibulum sapien purus. Nunc scelerisque magna eros, ac scelerisque ante tincidunt eu. Maecenas viverra risus eget ipsum accumsan volutpat. In hac habitasse platea dictumst. Vivamus eros ante, pharetra non nisl quis, cursus varius mi. Aliquam viverra elementum accumsan. Praesent convallis diam massa, quis sollicitudin arcu vehicula nec. Donec efficitur sit amet neque id aliquet.
+This podcast is based on the **psychological warfare** going on in our minds every single day.  It is nothing to fear, but something to examine.  I want this podcast to be where you can grow, challenge yourself, enlighten yourself, and laugh along the way.
 
-Etiam fringilla tristique nulla in bibendum. Cras a mi quis augue placerat semper. Morbi ut dui condimentum, rhoncus libero nec, porttitor tortor. Nulla facilisi. Ut eu nulla et nisl malesuada iaculis. Mauris ac imperdiet mi. Cras ut arcu faucibus, finibus elit finibus, consequat est. Sed quis eros pretium, rutrum eros a, maximus velit. Aliquam lobortis vulputate augue. Aliquam dignissim neque nisl, ut sollicitudin elit fringilla sit amet. Curabitur eu turpis id purus ullamcorper vestibulum et ut diam. Pellentesque cursus urna a cursus eleifend. Aenean dictum, urna vel laoreet venenatis, tortor purus congue tortor, nec maximus nulla massa vitae elit. Pellentesque in nulla ut ex fermentum egestas.
+Thank you for starting this journey.  I hope all find it rewarding... :)  
 
-```ruby
-  ~> 1.0  # will allow anything in version 1.X but nothing in version 2.X
-```
+If you ever want to be on the podcast, want to send my anything, feel free to email me at:
+**aj@psychowarfare.com**.
 
-Curabitur condimentum augue sem, blandit cursus ex varius a. Quisque sit amet augue iaculis, iaculis tellus a, viverra mi. Etiam accumsan massa commodo, volutpat lacus nec, mollis nunc. Phasellus eu sem consequat, mattis enim eu, commodo est. Phasellus ac gravida mi. Ut dictum a purus in bibendum. Aenean id vehicula erat. Fusce aliquet id felis nec ornare. Phasellus quis augue vel arcu maximus mattis. Sed aliquet tristique tellus vel ullamcorper. Vestibulum porttitor odio odio, id porttitor ante interdum non. Sed eu rutrum ligula.
 
-Cras faucibus risus sit amet posuere dictum. Curabitur dolor nulla, posuere eget pharetra sit amet, dignissim ut elit. Mauris fringilla, enim in gravida malesuada, nibh est sagittis metus, vitae imperdiet nisi nulla vel nulla. Donec et elementum felis. Morbi consequat justo commodo tortor imperdiet, sit amet facilisis libero facilisis. Sed ligula nisi, ultrices eget felis at, dignissim hendrerit nisl. Nullam erat libero, facilisis ut tempus cursus, tincidunt et diam. Phasellus finibus, magna at tristique lobortis, orci ligula vulputate neque, vitae pellentesque leo arcu nec arcu. Curabitur iaculis diam nulla, at gravida ante tempus et. Maecenas varius, mauris eget eleifend mattis, libero lacus fermentum nisl, id condimentum turpis lectus a odio. Suspendisse mauris ex, interdum eget malesuada nec, tincidunt vitae leo. Aliquam hendrerit neque vitae rhoncus imperdiet. Fusce elementum, metus eu elementum ultricies, sem leo elementum neque, sed venenatis elit tellus quis mi.
+**Introduce Yourself** :) - Leave a comment.

@@ -25,6 +25,7 @@ namespace :db do
 
         article = Article.create!(title: md["title"],
                         content: markdown(unrendered_content),
+                        header_image: md["header_image"],
                         published: md["published"],
                         useful_links: md["useful_links"],
                         people_mentioned: md["people_mentioned"],
@@ -35,6 +36,8 @@ namespace :db do
 
         puts article.useful_links
         puts article.people_mentioned
+        puts article.header_image
+        puts article.tags
 
       end
     end

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PsychoWarfareWebsite</title>
+    <title>Psycho Warfare</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -16,6 +16,8 @@
       ga('create', 'UA-XXXXXXXX-X', 'auto');
     </script>
     <% end %>
+
+    <%= favicon_link_tag("favicon.ico") %>
   </head>
 
   <body>
@@ -27,20 +29,23 @@
         <%= image_tag("logo80x80.png", class: "logo") %> Psycho Warfare
     <% end %>
       <%= link_to("About", home_contact_path , class: "item") %> 
+      <a onclick="showEmailModel();" class="ui right floated dropdown item">
+         <i class="alarm icon"></i>
+      </a>
     </div>
   </div>
 
     <%= render 'masthead' %>
 
-   <div class="ui column center aligned container celled grid vertical stripe segment">
+   <div class="ui two centered column container celled grid vertical stripe segment">
   
-     <div class="ui twelve wide column">
+     <div class="ui eight wide column">
 
        <%= yield %>
 
      </div>
 
-        <div class="ui four wide column">
+        <div class="ui four wide  segment column">
           
           <%= render 'sidebar' %>
 

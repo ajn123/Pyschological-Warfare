@@ -1,78 +1,59 @@
 
 
-  <div class="ui horizontal divider">
-    Listen On
-  </div>
-  <div class="ui stacked segments">
-
-  <%= link_to "#" do %>
-  <div class="ui blue  segment">
-  <i class="music icon"></i>
-    <p>iTunes</p>
-
-  </div>
-
+<div class="ui horizontal divider">
+  Listen On
+</div>
+  
+<div class="ui items">
+<% ["iTunes", "STITCHER", "Overcast"].each do |title| %>
+   <%= link_to "#", class: "item" do %>
+    <div class="ui tiny image">
+      <%= image_tag("#{title.downcase}.png") %>
+    </div>
+    <div class="middle aligned content">
+      <div class="header">
+        <%= title %>
+      </div>
+    </div>
+  <% end %>
 <% end %>
-<%= link_to "#" do %>
-  <div class="ui blue segment">
-  
-  <div class="left floated">
-    
-  <%=image_tag("stitcher-logo-large.png", class: "", size: "30x30", alt: "Stitcher") %>
- 
-  </div>
-
-    <p>Stitcher</p>
-  </div>
-  
-<% end %>
-
-  <%= link_to "#" do %>
-  
-  <div class="ui blue segment">
-  <%=image_tag("overcast.svg", class: " left floated", size: "30x30", alt: "Overcast") %>
-    <p>Overcast</p>
-  </div>
- 
-
 </div>
 
 
-<% end %>
 
-  <div class="ui horizontal divider">
-    Popular Posts
-  </div>
+
+<div class="ui horizontal divider">
+  Popular Posts
+</div>
 <div class="ui cards">
-<% Article.all.each do |t| %>
+  <% Article.all.each do |t| %>
   <div class="black card">
    <%= link_to show_page_path(t) do %>
-    <div class="content">
-      <div class="header"><%= t.title %> </div>
-    </div>
-  <% end %>
+   <div class="content">
+    <div class="header center aligned"><%= t.title %> </div>
   </div>
+  <% end %>
+</div>
 
 <% end %>
 </div>
 
 <div class="ui horizontal divider">
-    Topics
-  </div>
+  Topics
+</div>
 
 
 <div class="ui divided selection list labels">
-  
 
-    
+
+
   <%  Article.tag_counts.each do |t| %>
-    <%= link_to search_path(t.name), class: "ui teal basic label" do %>
-      <%= t.name %>
-     <div class="detail">
-       (<%= t.count %>)
-     </div>
-    <% end %>
-  
-<% end %>
+  <%= link_to search_path(t.name), class: "ui teal basic label" do %>
+  <%= t.name %>
+  <div class="detail">
+   (<%= t.count %>)
+ </div>
+ <% end %> 
+ <% end %>
 </div>
 
