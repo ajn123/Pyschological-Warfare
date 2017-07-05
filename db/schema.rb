@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170701195712) do
+ActiveRecord::Schema.define(version: 20170704233727) do
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 20170701195712) do
     t.integer "draft_comments_count", default: 0
     t.integer "published_comments_count", default: 0
     t.integer "deleted_comments_count", default: 0
+    t.text "useful_links"
+    t.text "people_mentioned"
   end
 
   create_table "comments", force: :cascade do |t|

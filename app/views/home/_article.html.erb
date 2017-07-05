@@ -1,11 +1,11 @@
-  
+
 <div class="ui twelve wide column">
 
 <h1 class="ui header left aligned">
   <%= article.title %>
 
   <div class="sub header">
-    <%= article.created_at.strftime('%v') %>
+    <%= article.created_at.strftime('%B %d, %Y') %>
 
 
 <span class="ui right floated ">
@@ -46,9 +46,7 @@
     <div class="ui raised very padded container segment">
       <%= image_tag("#{article.header_image}",  class: "ui container fluid image") %>
     </div>
-    <% 10.times do |t| %>
-      <p><%= article.content %></p>
-    <% end %>
+     <%= article.content.html_safe %>
 
       
 
@@ -56,10 +54,36 @@
 
     
       <div class="ui horizontal divider">
-
+        Useful links
 
     
      </div>
+     <ul class="ui list">
+       <% article.useful_links.each do |key, value| %>
+        <li>
+         <%= link_to "#{key}", value %>
+         </li>
+         <% end %>
+    
+    </ul>
+
+
+
+      <div class="ui horizontal divider">
+        People Mentioned
+
+    
+     </div>
+     <ul class="ui ordered list">
+
+       <% article.people_mentioned.each do |key, value| %>
+         <li>
+           <%= link_to "#{key}", value %>
+         </li>
+       <% end %>
+      
+    
+    </ul>
 
 
 

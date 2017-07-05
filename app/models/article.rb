@@ -7,6 +7,9 @@ class Article < ApplicationRecord
 
   acts_as_ordered_taggable_on :tags
 
+  serialize :useful_links, Hash 
+  serialize :people_mentioned, Hash 
+
   # Denormalization methods
   # Check the documentation for information on advanced usage
   def commentable_title

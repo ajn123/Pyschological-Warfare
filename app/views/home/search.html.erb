@@ -21,7 +21,7 @@
       </div>
       <div class="ui clearing divider"></div>
       <div class="description">
-        <p> <%= truncate(article.content, length: 200) %> </p>
+        <p> <%= truncate(article.content.html_safe, length: 200) %> </p>
       </div>
       
     </div>
