@@ -3,6 +3,10 @@ Rails.application.routes.draw do
 
 
 
+  get 'article/create'
+
+  get 'article/index'
+
   get 'home/contact'
 
   root "home#index"
@@ -13,7 +17,7 @@ Rails.application.routes.draw do
   
   get 'home/search/:tag', to: "home#search", as: :search
   
-resources :articles
+  resources :articles
   resources :users
 
   # TheComments routes
