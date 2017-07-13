@@ -11,7 +11,7 @@ class Article < ApplicationRecord
   serialize :people_mentioned, Hash 
 
 
-  default_scope { order('written_at_date DESC, updated_at')}
+  default_scope { order('written_at_date DESC, updated_at').where(published: true) }
 
   # Denormalization methods
   # Check the documentation for information on advanced usage

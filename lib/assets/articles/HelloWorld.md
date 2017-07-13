@@ -1,6 +1,7 @@
 ---
 title: "Hello, World!"
 header_image: "helloWorld.JPG"
+published: true
 useful_links: { "The Power Of Now": 'https://www.amazon.com/dp/B002361MLA',
 								"Bulletproof": "https://blog.bulletproof.com",
 								"Never Eat Alone" : "https://www.amazon.com/dp/B00H6JBFOS",
