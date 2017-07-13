@@ -29,6 +29,7 @@ namespace :db do
                         published: md["published"],
                         useful_links: md["useful_links"],
                         people_mentioned: md["people_mentioned"],
+                        written_at_date: md["written_at_date"],
                         user: User.first)
 
 

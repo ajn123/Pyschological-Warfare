@@ -10,6 +10,9 @@ class Article < ApplicationRecord
   serialize :useful_links, Hash 
   serialize :people_mentioned, Hash 
 
+
+  default_scope { order('written_at_date DESC, updated_at')}
+
   # Denormalization methods
   # Check the documentation for information on advanced usage
   def commentable_title
@@ -33,6 +36,8 @@ class Article < ApplicationRecord
   def recommended_articles
     Article.tagged_with(self.tag_list).where.not(id: "#{self.id}").sample(5)
   end
+
+
 
 
 end

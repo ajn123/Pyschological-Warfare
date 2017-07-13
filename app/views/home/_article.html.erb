@@ -3,7 +3,7 @@
 <%= link_to(article.title, show_page_path(article)) %>
 
   <div class="sub header">
-    <%= article.created_at.strftime('%B %d, %Y') %>
+    <%= article.written_at_date.strftime('%B %d, %Y') %>
 
  <div class="ui right aligned header">
     Topics: <% article.tag_counts.each do |t| %>
