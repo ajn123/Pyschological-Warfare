@@ -1,0 +1,15 @@
+ <div class="ui fixed inverted menu">
+    <div class="ui container">
+    <%= link_to(root_path , class: "header item") do %>
+        <%= image_tag("logo80x80.png", class: "logo") %> Psycho Warfare
+    <% end %>
+      <%= link_to("About", home_contact_path , class: "item") %> 
+      <a onclick="showEmailModel();" class="ui right floated dropdown item" id="contactMe">
+       <i class="large icons">
+         <i class="alarm icon" id="emailModel"></i>
+         <i class="inverted corner add circle red icon"></i>
+         </i>
+      </a>
+
+    </div>
+  </div>

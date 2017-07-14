@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 
+gem 'launchy'
+
 gem 'acts-as-taggable-on', git: 'https://github.com/mbleigh/acts-as-taggable-on'
 
 
@@ -46,6 +48,9 @@ group :development, :test do
   gem 'selenium-webdriver'
 
   gem 'rspec-rails', '~> 3.5'
+
+  
+  gem "database_cleaner"
 end
 
 group :development do

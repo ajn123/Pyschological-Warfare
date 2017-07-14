@@ -5,9 +5,9 @@
     Get Updates From Us!  No spam I promise :)
   </div>
   <div class="ui massive icon input header">
-<%= form_for User.new(), url: {action: "create_email"}, html: {class: ""}, remote: true do |f| %>
+<%= form_for User.new(), url: { action: "create_email" }, html: {class: ""}, remote: true do |f| %>
 
-<%= text_field(:user, :name, id: "name_input", class: "input", placeholder: "Your Name..") %>
+<%= text_field(:user, :name, id: "name_input", class: "input", placeholder: "Your Name...") %>
 
 <%= text_field(:user, :email, id: "email_input", class: "input", placeholder: "Your Email...") %>
 </div>
