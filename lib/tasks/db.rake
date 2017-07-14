@@ -11,6 +11,11 @@ namespace :db do
    task populate: :environment do
     Article.destroy_all
 
+    if User.count == 0
+        User.create!(name: "AJ", email: "aj@psychowarfare.com")
+        
+    end
+
     puts Dir.pwd
     a = File.join("lib", "assets", "articles", "*.md")
     Dir.glob(a).reject { |name| /.*(template|NEW_ARTICLE).*/ =~ name }.each do |file|
@@ -30,11 +35,11 @@ namespace :db do
                         useful_links: md["useful_links"],
                         people_mentioned: md["people_mentioned"],
                         written_at_date: md["written_at_date"],
+                        timestamp: md["timestamp"],
                         user: User.first)
 
 
         article.add_tag(md["tags"])
-
         puts article.useful_links
         puts article.people_mentioned
         puts article.header_image

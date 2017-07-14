@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20170704233727) do
     t.integer "deleted_comments_count", default: 0
     t.text "useful_links"
     t.text "people_mentioned"
+    t.text "timestamp"
   end
 
   create_table "comments", force: :cascade do |t|

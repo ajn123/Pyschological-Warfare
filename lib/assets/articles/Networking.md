@@ -9,6 +9,8 @@ useful_links: { "Never Eat Alone": "https://www.amazon.com/dp/B00H6JBFOS",
   "Hunter - Find Email Addresses" :"https://hunter.io",
    }
 people_mentioned: {"Bill Clinton": "https://en.wikipedia.org/wiki/Bill_Clinton"}
+timestamp: ["this is the first time stamp [0:00]",
+						 "this is the second time stamp [3:23]"]
 user_id: 1
 ---
 

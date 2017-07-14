@@ -56,6 +56,19 @@
     
     </ul>
 
+
+      <div class="ui horizontal divider">
+        Show Notes
+     </div>
+     <ul class="ui ordered list">
+
+       <% article.timestamp.each do |item| %>
+         <li>
+           <%= item %>
+         </li>
+       <% end %>
+    </ul>
+
       <div class="ui horizontal divider">
         People Mentioned
      </div>

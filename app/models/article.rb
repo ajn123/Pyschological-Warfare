@@ -9,6 +9,7 @@ class Article < ApplicationRecord
 
   serialize :useful_links, Hash 
   serialize :people_mentioned, Hash 
+  serialize :timestamp, Array 
 
 
   default_scope { order('written_at_date DESC, updated_at').where(published: true) }

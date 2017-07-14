@@ -15,7 +15,8 @@ people_mentioned: { "Tim Ferriss": "https://twitter.com/tferriss",
 										"Mr. Money Mustache", "https://www.mrmoneymustache.com",
 										"Echart Tolle": "https://www.eckharttolle.com"}
 
-
+timestamp: ["this is the first time stamp [0:00]",
+						 "this is the second time stamp [3:23]"]
 tags: ["Inspiration"]										
 written_at_date: 04-07-2017
 user_id: 1
