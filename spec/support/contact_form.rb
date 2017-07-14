@@ -13,8 +13,7 @@ class ContactForm
   end
 
   def fill_in_with(params = {})
-
-    fill_in('Your Name...', :with => 'John')
+    fill_in('Your Name...', :with =>  params.fetch(:name, 'John'))
     fill_in('Your Email...', :with => params.fetch(:email, 'ajn123@vt.edu'))
     self 
   end
