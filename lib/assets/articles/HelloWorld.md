@@ -15,8 +15,11 @@ people_mentioned: { "Tim Ferriss": "https://twitter.com/tferriss",
 										"Mr. Money Mustache", "https://www.mrmoneymustache.com",
 										"Echart Tolle": "https://www.eckharttolle.com"}
 
-timestamp: ["this is the first time stamp [0:00]",
-						 "this is the second time stamp [3:23]"]
+timestamp: ["Introduction [0:00]",
+						 "What I plan to do [0:43]",
+						 "Relationships [8:05]",
+						 "The Happiness Correlation [9:02]",
+						 "Networking [14:00]"]
 tags: ["Inspiration"]										
 written_at_date: 04-07-2017
 embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332836827"
