@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20170704233727) do
     t.text "useful_links"
     t.text "people_mentioned"
     t.text "timestamp"
+    t.text "embedded_link"
   end
 
   create_table "comments", force: :cascade do |t|

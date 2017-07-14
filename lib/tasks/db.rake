@@ -13,7 +13,6 @@ namespace :db do
 
     if User.count == 0
         User.create!(name: "AJ", email: "aj@psychowarfare.com")
-        
     end
 
     puts Dir.pwd
@@ -36,6 +35,7 @@ namespace :db do
                         people_mentioned: md["people_mentioned"],
                         written_at_date: md["written_at_date"],
                         timestamp: md["timestamp"],
+                        embedded_link: md["embedded_link"],
                         user: User.first)
 
 

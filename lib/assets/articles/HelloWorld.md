@@ -19,6 +19,8 @@ timestamp: ["this is the first time stamp [0:00]",
 						 "this is the second time stamp [3:23]"]
 tags: ["Inspiration"]										
 written_at_date: 04-07-2017
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332836827"
+
 user_id: 1
 ---
 ``
