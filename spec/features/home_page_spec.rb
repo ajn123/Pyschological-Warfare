@@ -20,14 +20,19 @@ let(:contact_form) { ContactForm.new }
 feature "Sign Up", js: true do
 
 	scenario "Correct Sign UP" do 
+		
+		expect(User.count).to eq(0)
 		contact_form.visit_page.fill_in_with.submit
 		expect(page).to have_content("Thanks for signing up! ")
+		expect(User.count).to eq(1)
 		
 	end
 
 	scenario "Invalid Sign UP" do 
+		expect(User.count).to eq(0)
 		contact_form.visit_page.fill_in_with(email: "wrongEMAIL").submit
 		expect(page).to have_content("Oops! Click here to try Again")		
+		expect(User.count).to eq(0)
 	end
 end
 
