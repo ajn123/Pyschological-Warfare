@@ -20,6 +20,8 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+
+# localhost
 production:
   <<: *default
   adapter: postgresql
@@ -27,5 +29,5 @@ production:
   database: <%= ENV['RDS_DB_NAME'] %>
   username: <%= ENV['RDS_USERNAME'] %>
   password: <%= ENV['RDS_PASSWORD'] %>
-  host: /var/run/postgresql
+  host: localhost
   port: <%= ENV['RDS_PORT'] %>
