@@ -4,28 +4,33 @@
   Listen On
 </div>
   
-<div class="ui items">
-<% ["iTunes", "STITCHER", "Overcast"].each do |title| %>
-   <%= link_to "#", class: "item" do %>
-    <div class="ui tiny image">
-      <%= image_tag("#{title.downcase}.png") %>
-    </div>
-    <div class="middle aligned content">
-      <div class="header">
-        <%= title %>
-      </div>
-    </div>
+
+<div class="ui center aligned segments">
+   <%= link_to "#"  do  %>
+  <div class="ui center aligned red segment"><i class="music icon"></i>iTunes
+  </div>
   <% end %>
-<% end %>
+   <%= link_to "#"  do  %>
+  
+  <div class="ui center aligned black  segment"><i class="bar chart icon"></i>Stitcher
+  </div>
+  <% end %>
+   <%= link_to "#"  do  %>
+  
+  <div class="ui center aligned orange segment"><i class="unmute icon"> </i>Overcast
+  </div>
+  <% end %>
 </div>
 
 <div class="ui horizontal divider">
   Support Us
 </div>
 
-<div class="ui center aligned segment">
-  <a href="https://www.patreon.com/bePatron?u=6850862" class="ui orange button"><i class="paypal icon"></i>Become a Patron</a>
-</div>
+ <%= link_to "https://www.patreon.com/bePatron?u=6850862"  do  %>
+    
+  <div class="ui center aligned orange inverted segment"><i class="paypal icon"></i>Become a Patron
+  </div>
+<% end %>
 
 
 <div class="ui horizontal divider">
