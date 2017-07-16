@@ -2,6 +2,7 @@ class User < ApplicationRecord
 
   include TheComments::User
 
+   validates :name, :email, presence: true
 	 validates_format_of :email, :with => /@/
 	 validates_uniqueness_of :email
 

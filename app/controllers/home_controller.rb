@@ -17,6 +17,9 @@ class HomeController < ApplicationController
   def create_email
     @new_user = User.new(user_params)
 
+    if @new_user.valid?
+      UserMailer.welcome_email(@new_user).deliver_now
+    end
   	respond_to do |f|
   		f.js { render layout: false }
   	end
