@@ -3,7 +3,7 @@ require "acts-as-taggable-on"
 class Article < ApplicationRecord
 	include TheComments::Commentable
 
-	belongs_to :user
+	belongs_to :user, optional: true
 
   acts_as_ordered_taggable_on :tags
 
@@ -11,6 +11,8 @@ class Article < ApplicationRecord
   serialize :people_mentioned, Hash 
   serialize :timestamp, Array 
 
+
+  validates :embedded_link, presence: { message: "needs a Podcast link" }, uniqueness: true
 
   default_scope { order('written_at_date DESC, updated_at').where(published: true) }
 

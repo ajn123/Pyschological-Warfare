@@ -9,7 +9,7 @@ useful_links: { "The people's choice": "https://github.com/steveklabnik/metadown
 people_mentioned: {"Victor Frankl": "http://www.logotherapyinstitute.org/About_Logotherapy.html"}
 timestamp: ["this is the first time stamp [0:00]",
 						 "this is the second time stamp [3:23]"]
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831eue"
 user_id: 1
 ---
 ``

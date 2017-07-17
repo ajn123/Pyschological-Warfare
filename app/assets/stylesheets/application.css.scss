@@ -20,6 +20,7 @@
 
 $silveColor: #ecf0f1;
 $blackColor: #2c3e50;
+$mastheadSize: 400px;
 
 
  .ui.menu .item img.logo {
@@ -38,13 +39,14 @@ $blackColor: #2c3e50;
         display: block;
       }
       .masthead.segment {
-        min-height: 350px;
+        min-height: $mastheadSize;
       }
     }
 
 
  .masthead.segment {
-      min-height: 350px;
+      color: white;
+      min-height: $mastheadSize;
       padding: 1em 0em;
     }
     .masthead .logo.item img {
@@ -54,10 +56,12 @@ $blackColor: #2c3e50;
       margin-left: 0.5em;
     }
     .masthead h1.ui.header {
+
       font-size: 4em;
       font-weight: normal;
     }
     .masthead h2 {
+
 
       margin-top: 3em;
       font-size: 1.7em;
@@ -112,4 +116,12 @@ pre {
   margin: 1px;
 
   white-space: pre-line;
+}
+
+
+.masthead {
+  background-image: image-url("hand.jpg") !important;
+  background-size: cover !important;
+   background-repeat: no-repeat;
+   background-position: center !important;
 }
