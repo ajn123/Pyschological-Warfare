@@ -5,5 +5,5 @@ test:
  host: 'localhost'
  port: '6379'
 production:
- host: 'psychowarfare-001.jfzwoa.0001.usw2.cache.amazonaws.com'
+ host: 'psychowar-001.jfzwoa.0001.usw2.cache.amazonaws.com'
  port: '6379'
