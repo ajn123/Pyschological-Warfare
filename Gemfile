@@ -91,6 +91,8 @@ gem 'metadown'
 
 gem 'coderay'
 
+gem 'sidekiq'
+
 
 group :production do  
   gem 'pg'
