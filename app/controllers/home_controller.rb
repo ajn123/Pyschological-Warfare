@@ -18,7 +18,7 @@ class HomeController < ApplicationController
     @new_user = User.new(user_params)
 
     if @new_user.valid?
-      HardWorker.perform_async(@new_user.email)
+       UserMailer.welcome_email(@new_user.email).deliver_later
     end
   	respond_to do |f|
   		f.js { render layout: false }

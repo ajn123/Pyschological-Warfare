@@ -4,6 +4,6 @@ class HardWorker
 
   def perform(name)
   	puts "hello"
-  	UserMailer.welcome_email(@new_user).deliver_now
+  	UserMailer.welcome_email(@new_user).deliver_later
   end
 end
