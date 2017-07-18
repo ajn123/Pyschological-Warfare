@@ -1,6 +1,6 @@
 ---
 title: "Family Therapy Discussion with Justin Huft"
-header_image: "logo.png" 
+header_image: "wonderWomen.jpg" 
 published: true
 written_at_date: 15-07-2017
 tags: ["Therapeutic", "Inspiration"]
