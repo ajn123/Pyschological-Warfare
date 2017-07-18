@@ -17,7 +17,7 @@ class HardWorker
       body: {
         email_address: user[1],
         status: 'subscribed',
-        merge_fields: { FNAME: user[1], LNAME: "" }
+        merge_fields: { FNAME: user[0], LNAME: "" }
     }
     )
   end
