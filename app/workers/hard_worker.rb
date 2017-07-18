@@ -4,8 +4,7 @@ class HardWorker
 
   def perform(user)
   	UserMailer.welcome_email(user[1]).deliver_later
-    subscribe(user)
-    
+    subscribe(user)  
   end
 
 
@@ -18,7 +17,7 @@ class HardWorker
         email_address: user[1],
         status: 'subscribed',
         merge_fields: { FNAME: user[0], LNAME: "" }
-    }
+      }
     )
   end
 end

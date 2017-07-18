@@ -5,13 +5,15 @@
   <div class="sub header">
     <%= article.written_at_date.strftime('%B %d, %Y') %>
 
- <div class="ui right aligned header">
+<h3>
+ <div class="ui header">
     Topics: <% article.tag_counts.each do |t| %>
-    <%= link_to search_path(t.name), class: "ui teal basic label" do %>
+    <%= link_to search_path(t.name), class: "ui teal basic small label" do %>
       <%= t.name %>
     <% end %> 
   <% end %>
   </div>
+  </h3>
 
 
   </div>
