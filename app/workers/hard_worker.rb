@@ -3,10 +3,13 @@ class HardWorker
   sidekiq_options queue: 'critical'
 
   def perform(name)
-  	# subscribe(name)
   	UserMailer.welcome_email(name).deliver_later
+    subscribe(name)
+    
   end
 
+
+  # Does not work in production
   def subscribe(email)
     mailchimp = Gibbon::Request.new(api_key: Rails.application.secrets.mailchimp_api_key)
     list_id = Rails.application.secrets.mailchimp_list_id
@@ -15,6 +18,5 @@ class HardWorker
         email_address: email,
         status: 'subscribed'
     })
-    Rails.logger.info("Subscribed #{email} to MailChimp") if result
   end
 end
