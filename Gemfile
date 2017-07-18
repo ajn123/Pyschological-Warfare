@@ -93,6 +93,8 @@ gem 'coderay'
 
 gem 'sidekiq'
 
+gem 'gibbon'
+
 
 group :production do  
   gem 'pg'

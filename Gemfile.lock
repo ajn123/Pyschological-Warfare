@@ -86,7 +86,12 @@ GEM
     diff-lcs (1.3)
     erubi (1.6.1)
     execjs (2.7.0)
+    faraday (0.12.1)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
+    gibbon (3.0.2)
+      faraday (>= 0.9.1)
+      multi_json (>= 1.11.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     haml (5.0.1)
@@ -121,6 +126,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.2)
     multi_json (1.12.1)
+    multipart-post (2.0.0)
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
@@ -260,6 +266,7 @@ DEPENDENCIES
   coderay
   coffee-rails (~> 4.2)
   database_cleaner
+  gibbon
   haml
   jbuilder (~> 2.5)
   jquery-rails
