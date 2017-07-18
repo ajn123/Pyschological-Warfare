@@ -3,7 +3,7 @@ class HardWorker
   sidekiq_options queue: 'critical'
 
   def perform(user)
-  	UserMailer.welcome_email(user[:email]).deliver_later
+  	UserMailer.welcome_email(user[1]).deliver_later
     subscribe(user)
     
   end
@@ -15,9 +15,9 @@ class HardWorker
     list_id = Rails.application.secrets.mailchimp_list_id
     result = mailchimp.lists(list_id).members.create(
       body: {
-        email_address: user[:email],
+        email_address: user[1],
         status: 'subscribed',
-        merge_fields: { FNAME: user[:name], LNAME: "" }
+        merge_fields: { FNAME: user[1], LNAME: "" }
     }
     )
   end

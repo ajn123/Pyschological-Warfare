@@ -18,7 +18,7 @@ class HomeController < ApplicationController
     @new_user = User.new(user_params)
 
     if @new_user.valid?
-       HardWorker.perform_async({name: @new_user.name, email: @new_user.email})
+       HardWorker.perform_async([@new_user.name, @new_user.email])
     end
   	respond_to do |f|
   		f.js { render layout: false }
