@@ -3,7 +3,7 @@ class HardWorker
   sidekiq_options queue: 'critical'
 
   def perform(name)
-  	subscribe(name)
+  	# subscribe(name)
   	UserMailer.welcome_email(name).deliver_later
   end
 
