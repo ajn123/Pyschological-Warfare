@@ -52,6 +52,13 @@ namespace :db do
     puts "Article Count: #{Article.count}"
   end
 
+  desc 'destroy all user models' 
+  task destroy_users: :environment do    
+    User.destroy_all
+    puts "Users Destroyed"
+
+  end
+
 
 
 
