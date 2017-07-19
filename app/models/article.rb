@@ -37,7 +37,7 @@ class Article < ApplicationRecord
   
   # Get tags all excluding itself
   def recommended_articles
-    Article.tagged_with(self.tag_list).where.not(id: "#{self.id}").sample(5)
+    Article.tagged_with(self.tag_list, any: true).where.not(id: "#{self.id}").sample(5)
   end
 
 

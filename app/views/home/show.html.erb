@@ -3,14 +3,22 @@
 
     <div class="ui raised segments">
       <div class="ui success header segment">Recommended Posts</div>
-      
-      <% @article.recommended_articles.each do |r| %>
+      <% if @article.recommended_articles.any? %>
+        <% @article.recommended_articles.each do |r| %>
         <%= link_to show_page_path(r) do %>
           <div class="ui success segment">
             <%= r.title %>
           </div>
           <% end %>
         <% end %>
+          
+      <% else %>
+       <div class="ui success segment">
+            Check out more articles on the sidebar!
+          </div>
+          
+      <% end %>
+      
       </div>
 
 
