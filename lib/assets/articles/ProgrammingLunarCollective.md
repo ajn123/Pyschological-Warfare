@@ -15,7 +15,7 @@ useful_links: { "Lunar Collective": "https://lunarcollective.co",
 								"Rails Conf" : "https://railsconf.com/"
 								 }
 people_mentioned: {"Marco Arment": "https://marco.org/",
-										"Gary Bernhardt":"https://github.com/garybernhardt",
+										"Gary Bernhardt":"https://github.com/garybernhardt" }
 timestamp: ["this is the first time stamp [0:00]",
 						 "this is the second time stamp [3:23]"]
 embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334150497"
