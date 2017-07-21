@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   root "home#index"
   get 'home/index'
+  
   post '/create_email', to: 'home#create_email', as: :create_email
 
   get 'home/show/:id', to: 'home#show', as: :show_page
@@ -19,6 +20,8 @@ Rails.application.routes.draw do
   
   resources :articles
   resources :users
+
+  get '/patreon' => redirect("https://www.patreon.com/bePatron?u=6850862")
 
   # TheComments routes
   # TheComments routes

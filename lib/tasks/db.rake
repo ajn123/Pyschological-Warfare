@@ -29,7 +29,8 @@ namespace :db do
 
         puts md["title"]
 
-        article = Article.create!(title: md["title"],
+        article = Article.create!(
+                        title: md["title"],
                         content: markdown(unrendered_content),
                         header_image: md["header_image"],
                         published: md["published"],
