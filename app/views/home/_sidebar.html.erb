@@ -37,7 +37,7 @@
   Popular Posts
 </div>
 <div class="ui cards">
-  <% Article.all.each do |t| %>
+  <% Article.limit(5).each do |t| %>
   <div class="black card">
    <%= link_to show_page_path(t) do %>
    <div class="content">
