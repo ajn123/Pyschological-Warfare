@@ -6,8 +6,7 @@ class CommentsController < ApplicationController
   # before_action :user_required,  except: %w[index create]
   # before_action :owner_required, except: %w[index create]
   # before_action :admin_required, only:   %w[total_draft total_published total_deleted total_spam]
-  after_action :comment_created, only: %w[create] 
-  
+
   include TheComments::Controller
 
   def current_user
@@ -25,9 +24,7 @@ def comment_params
   .merge(user: current_user, view_token: comments_view_token).merge(holder: current_user)
 end
 
-def comment_created
-  CommentsWorker.perform_async()
-end
+
 
 
 

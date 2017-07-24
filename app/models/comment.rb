@@ -1,5 +1,12 @@
 class Comment < ActiveRecord::Base
   include TheComments::Comment
+
+  after_create :comment_created
+
+
+  def comment_created
+    CommentsWorker.perform_async([self.title, self.contacts, self.content, self.commentable_title])
+  end
   # ---------------------------------------------------
   # Define comment's avatar url
   # Usually we use Comment#user (owner of comment) to define avatar

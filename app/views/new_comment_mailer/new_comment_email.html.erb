@@ -5,6 +5,18 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1>You have a new comment!</h1>
+    <h1>You have a new comment in <%= @commentable_title %></h1>
+
+    <br>
+    <h3>Comment in <%= @commentable_title %></h3>
+    <h2>Contacts:</h2>
+    <h3> <%= @contacts %></h3>
+    <%= "-" * 80 %>
+    <br>	
+    <h2>Content DOWN BELOW:</h2>
+    <%= "-" * 80 %>
+    <p>
+    	<%= @content %>
+    </p>
   </body>
 </html>
