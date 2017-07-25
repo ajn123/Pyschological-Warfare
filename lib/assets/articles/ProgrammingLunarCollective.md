@@ -1,6 +1,6 @@
 ---
 title: "Programming With Justin @ LunarCollective"
-header_image: "logo.png" 
+header_image: "Justin.jpg" 
 published: true
 written_at_date: 18-07-2017
 tags: ["Entrepeneurship", "Programming"]

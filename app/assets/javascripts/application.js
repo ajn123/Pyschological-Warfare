@@ -104,7 +104,7 @@ document.addEventListener('turbolinks:load', function(event) {
      $('.message .close').on('click', function() { $(this).closest('.message').transition('fade');});
 
 
-     $('.message .close').closest('.message').delay(60000).queue(function() {
+     $('.message .close').closest('.message').delay(30000).queue(function() {
         showMessage("request");
       });
 
