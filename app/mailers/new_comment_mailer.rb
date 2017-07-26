@@ -6,7 +6,7 @@ class NewCommentMailer < ApplicationMailer
 	 	@contacts = args[1]
 	 	@content = args[2]
 	 	@commentable_title = args[3]
-
     mail(to: "aj@psychowarfare.com", subject: "#{@name} posted new comment")
-  end
+	 end
+	 
 end

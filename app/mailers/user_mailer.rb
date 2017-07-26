@@ -5,5 +5,5 @@ class UserMailer < ApplicationMailer
 	 def welcome_email(email)
 	 	@email = email
     mail(to: "aj@psychowarfare.com", subject: "#{email} just signed up")
-  end
+	 end
 end
