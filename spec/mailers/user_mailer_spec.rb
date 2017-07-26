@@ -1,14 +1,14 @@
 require "rails_helper"
 
 RSpec.describe UserMailer, type: :mailer do
-  
 
 
-  describe "User mailer Works" do 
+
+  describe "User mailer Works" do
 
   	email = UserMailer.welcome_email(User.create(name: "Alex", email: "bob@aol.com"))
-  	 
-  	it "sends the email" do 
+
+  	it "sends the email" do
   	 expect(email.to).to eq(["aj@psychowarfare.com"])
 
 		end
