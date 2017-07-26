@@ -1,9 +1,9 @@
 ---
 title: "Trashbots - Transforming the future cheaply"
-header_image: "trashbots.png" 
+header_image: "trashbots.png"
 published: true
 written_at_date: 22-07-2017
-tags: ["Entrepeneurship"]
+tags: ["Entrepreneurship"]
 useful_links: { "Trashbots" : "https://www.trashbots.org/",
 								"The Miracle Foundation": "http://www.miraclefoundation.org/",
 								"Tarmac TX" : "http://www.tarmactx.com/" }

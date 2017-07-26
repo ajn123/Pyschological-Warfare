@@ -1,9 +1,9 @@
 ---
 title: "Funnel.AI"
-header_image: "features-8.png" 
+header_image: "features-8.png"
 published: true
 written_at_date: 21-07-2017
-tags: ["Entrepeneurship"]
+tags: ["Entrepreneurship"]
 useful_links: { "Funnel AI": "https://funnelai.co/" }
 people_mentioned: {"Sri Kamma": "https://twitter.com/srikams" }
 timestamp: []

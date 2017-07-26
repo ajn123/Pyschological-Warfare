@@ -1,9 +1,9 @@
 ---
 title: "Programming With Justin @ LunarCollective"
-header_image: "Justin.jpg" 
+header_image: "Justin.jpg"
 published: true
 written_at_date: 18-07-2017
-tags: ["Entrepeneurship", "Programming"]
+tags: ["Entrepreneurship", "Programming"]
 useful_links: { "Lunar Collective": "https://lunarcollective.co",
 								"Overcast": "https://overcast.fm",
 								"Elm": "http://elm-lang.org/examples",

@@ -49,7 +49,7 @@ group :development, :test do
 
   gem 'rspec-rails', '~> 3.5'
 
-  
+
   gem "database_cleaner"
   gem 'sqlite3'
 end
@@ -96,8 +96,6 @@ gem 'sidekiq'
 gem 'gibbon'
 
 
-group :production do  
+group :production do
   gem 'pg'
 end
-
-
