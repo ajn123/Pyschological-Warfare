@@ -1,7 +1,7 @@
 ---
 title: "How Hackathons Influence the World - Expedition Hacks"
 header_image: "logo.png"
-published: true
+published: false
 written_at_date: 01-01-2017
 tags: ["Entrepeneurship", "Inspiration"]
 useful_links: { "Expedition Hacks": "http://expeditionhacks.com/" }

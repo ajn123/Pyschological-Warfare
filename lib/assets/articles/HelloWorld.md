@@ -9,9 +9,9 @@ useful_links: { "The Power Of Now": 'https://www.amazon.com/dp/B002361MLA',
 								"Outliers" : "https://www.amazon.com/dp/B001ANYDAO",
 								"Ethereum": "https://www.ethereum.org",
 								"The Inner Game of Tennis" : "https://www.amazon.com/dp/B003T0G9E4"
-								} 
+								}
 people_mentioned: { "Tim Ferriss": "https://twitter.com/tferriss",
-										"Malcolm Gladwell": "http://gladwell.com/", 
+										"Malcolm Gladwell": "http://gladwell.com/",
 										"Mr. Money Mustache", "https://www.mrmoneymustache.com",
 										"Echart Tolle": "https://www.eckharttolle.com"}
 

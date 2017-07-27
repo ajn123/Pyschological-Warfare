@@ -1,7 +1,7 @@
 ---
 title: "Funnel.AI"
 header_image: "features-8.png"
-published: true
+published: false
 written_at_date: 21-07-2017
 tags: ["Entrepreneurship"]
 useful_links: { "Funnel AI": "https://funnelai.co/" }
