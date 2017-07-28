@@ -7,9 +7,9 @@ tags: ["Entrepreneurship"]
 useful_links: { "Funnel AI": "https://funnelai.co/" }
 people_mentioned: {"Sri Kamma": "https://twitter.com/srikams" }
 timestamp: []
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334384798"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334384798eee"
 user_id: 1
 ---
 
 In this video I interview Sridhar Kamma, the CEO of Funnel AI, a company looking to inovate on sails and cold emails
-using the power of Artiificial Intelligence.
+using the power of Artificial Intelligence.

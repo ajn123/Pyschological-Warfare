@@ -7,12 +7,12 @@ class Article < ApplicationRecord
 
   acts_as_ordered_taggable_on :tags
 
-  serialize :useful_links, Hash 
-  serialize :people_mentioned, Hash 
-  serialize :timestamp, Array 
+  serialize :useful_links, Hash
+  serialize :people_mentioned, Hash
+  serialize :timestamp, Array
 
 
-  validates :embedded_link, presence: { message: "needs a Podcast link" }, uniqueness: true
+  # validates :embedded_link, presence: { message: "needs a Podcast link" }, uniqueness: true
 
   default_scope { order('written_at_date DESC, updated_at').where(published: true) }
 
@@ -30,11 +30,11 @@ class Article < ApplicationRecord
     :published.to_s
   end
 
-  def add_tag item 
+  def add_tag item
      self.tag_list.add(item)
      self.save
   end
-  
+
   # Get tags all excluding itself
   def recommended_articles
     Article.tagged_with(self.tag_list, any: true).where.not(id: "#{self.id}").sample(5)

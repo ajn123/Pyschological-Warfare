@@ -1,6 +1,6 @@
 ---
 title: "Family Therapy Discussion with Justin Huft"
-header_image: "wonderWomen.jpg" 
+header_image: "wonderWomen.jpg"
 published: true
 written_at_date: 15-07-2017
 tags: ["Therapeutic", "Inspiration"]
@@ -9,9 +9,10 @@ useful_links: { "The people's choice": "https://github.com/steveklabnik/metadown
 people_mentioned: {"Victor Frankl": "http://www.logotherapyinstitute.org/About_Logotherapy.html"}
 timestamp: ["this is the first time stamp [0:00]",
 						 "this is the second time stamp [3:23]"]
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831eue"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334981030"
 user_id: 1
 ---
+
 ``
 "I think that you can not address mental health, if you are not addressing multiple domains of wellness."
 ``
