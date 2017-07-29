@@ -8,7 +8,7 @@
 
 <div class="ui divided  items">
 
- 
+
  <% @articles.each do |article| %>
 
   <%= link_to(show_page_path(article), class: "ui item")  do %>
@@ -21,10 +21,10 @@
       </div>
       <div class="ui clearing divider"></div>
       <div class="description">
-        <p> <%= truncate(article.content.html_safe, length: 100) %> </p>
+        <p> <%= truncate(article.search_content,length: 200)  %> </p>
       </div>
-      
+
     </div>
   <% end %>
-<% end %>  
-</div> 
+<% end %>
+</div>

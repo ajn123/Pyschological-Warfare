@@ -40,6 +40,10 @@ class Article < ApplicationRecord
     Article.tagged_with(self.tag_list, any: true).where.not(id: "#{self.id}").sample(5)
   end
 
+	def search_content
+	  ActionView::Base.full_sanitizer.sanitize(self.content)
+	end
+
 
 
 
