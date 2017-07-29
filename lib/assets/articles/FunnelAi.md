@@ -7,7 +7,7 @@ tags: ["Entrepreneurship"]
 useful_links: { "Funnel AI": "https://funnelai.co/" }
 people_mentioned: {"Sri Kamma": "https://twitter.com/srikams" }
 timestamp: []
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334384798eee"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/3343eee84798eee"
 user_id: 1
 ---
 
