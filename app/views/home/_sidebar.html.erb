@@ -1,9 +1,19 @@
 
 
 <div class="ui horizontal divider">
+  Get Updates
+</div>
+
+  <div class="segments">
+  <a class="ui fluid button blue" onclick="showEmailModel();">
+    <i class="mail icon"></i> Subscribe to our Email List
+
+  </a>
+  </div>
+<div class="ui horizontal divider">
   Listen On
 </div>
-  
+
 
 <div class="ui center aligned segments">
    <%= link_to "#"  do  %>
@@ -11,12 +21,12 @@
   </div>
   <% end %>
    <%= link_to "#"  do  %>
-  
+
   <div class="ui center aligned black  segment"><i class="bar chart icon"></i>Stitcher
   </div>
   <% end %>
    <%= link_to "#"  do  %>
-  
+
   <div class="ui center aligned orange segment"><i class="unmute icon"> </i>Overcast
   </div>
   <% end %>
@@ -27,7 +37,7 @@
 </div>
 
  <%= link_to "https://www.patreon.com/bePatron?u=6850862", target: :blank  do  %>
-    
+
   <div class="ui center aligned orange inverted segment"><i class="paypal icon"></i>Become a Patron
   </div>
 <% end %>
@@ -64,7 +74,6 @@
   <div class="detail">
    (<%= t.count %>)
  </div>
- <% end %> 
+ <% end %>
  <% end %>
 </div>
-

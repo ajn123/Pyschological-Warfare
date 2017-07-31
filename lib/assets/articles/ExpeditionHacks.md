@@ -3,7 +3,7 @@ title: "How Hackathons Influence the World - Expedition Hacks"
 header_image: "logo.png"
 published: false
 written_at_date: 01-01-2017
-tags: ["Entrepeneurship", "Inspiration"]
+tags: ["Entrepreneurship", "Inspiration"]
 useful_links: { "Expedition Hacks": "http://expeditionhacks.com/" }
 people_mentioned: {"Bille Gates": "https://twitter.com/BillGates"}
 timestamp: ["this is the first time stamp [0:00]",
