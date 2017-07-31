@@ -15,8 +15,7 @@ timestamp: ["Introduction [0:00]",
 						 "Microsoft 1980 [1:00]",
 						 "AirBnb Story [5:00]",
 						 "Blab.im Story [10:44]"]
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/335580004"
 user_id: 1
 ---
-
 In this podcast we go over the classic founder stories of Microsoft and AirBnb.  What we can learn from them and why they are important.  Anyone is who interested in startups should check out the excellent [video series](https://www.youtube.com/watch?v=CBYhVcO4WgI&index=1&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1), that goes through the in and outs of starting a company and pitfalls to avoid.
