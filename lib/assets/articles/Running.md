@@ -1,6 +1,6 @@
 ---
 title: "Finding yourself in running"
-published: true
+published: false
 header_image: "logo.png"
 written_at_date: 06-07-2017
 tags: ["Physical Performance"]
