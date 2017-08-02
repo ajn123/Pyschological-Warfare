@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   end
 
   def show
-    @article = Article.find(params[:id])
+    @article = Article.friendly.find(params[:id])
     @comments = @article.comments.with_state([:draft, :published])
   end
 
@@ -30,21 +30,21 @@ class HomeController < ApplicationController
   def search
     @tag = params[:tag]
     @articles = Article.tagged_with(@tag)
-    
+
   end
 
   def default_values
     @read_more = false
-    if self.action_name == "index" 
+    if self.action_name == "index"
       @read_more = true
-  
+
     end
-     
-  end 
+
+  end
 
 
   private
   	def user_params
   		params.require(:user).permit(:name, :email)
-  	end  
+  	end
 end

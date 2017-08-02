@@ -2,6 +2,8 @@ require "acts-as-taggable-on"
 
 class Article < ApplicationRecord
 	include TheComments::Commentable
+	extend FriendlyId
+	friendly_id :title
 
 	belongs_to :user, optional: true
 

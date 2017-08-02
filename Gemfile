@@ -95,6 +95,7 @@ gem 'sidekiq'
 
 gem 'gibbon'
 
+gem 'friendly_id'
 
 group :production do
   gem 'pg'
