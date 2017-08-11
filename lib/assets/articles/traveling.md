@@ -3,7 +3,7 @@ title: "Find your passion and grow empathy in traveling"
 header_image: "TourGuide.jpg"
 published: true
 written_at_date: 07-08-2017
-tags: ["Inspiration", "travel"]
+tags: ["Inspiration", "Travel"]
 useful_links: { "ITMI Tour Training": "http://www.itmitourtraining.com/" }
 people_mentioned: {}
 timestamp: []

@@ -10,7 +10,7 @@
     Topics: <% article.tag_counts.each do |t| %>
     <%= link_to search_path(t.name), class: "ui teal basic small label" do %>
       <%= t.name %>
-    <% end %> 
+    <% end %>
   <% end %>
   </div>
   </h3>
@@ -19,7 +19,7 @@
   </div>
 
 </h1>
- 
+
 
   <div class="ui horizontal divider">
     Share
@@ -36,7 +36,7 @@
     </div>
 
    <div class="ui horizontal divider">
-     ENJOY 
+     ENJOY
    </div>
 
     <div class="ui raised container segment">
@@ -45,12 +45,12 @@
      <%= article.content.html_safe %>
 
     <% if @read_more == false %>
-      
+
       <iframe width="100%" height="166" scrolling="no" frameborder="no" src="<%= article.embedded_link %>&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 
      <div class="ui horizontal divider">
-        Useful links    
+        Useful links
      </div>
 
      <ul class="ui list">
@@ -59,10 +59,11 @@
          <%= link_to "#{key}", value %>
          </li>
          <% end %>
-    
+
     </ul>
 
 
+<!--
       <div class="ui horizontal divider">
         Show Notes
      </div>
@@ -74,7 +75,7 @@
          </li>
        <% end %>
     </ul>
-
+-->
       <div class="ui horizontal divider">
         People Mentioned
      </div>
@@ -90,9 +91,8 @@
      <div class="ui left aligned header">
     <%= link_to show_page_path(article), class: "ui blue basic massive button" do %>
       Listen & Comment
-    <% end %> 
+    <% end %>
   </div>
 
 
     <% end %>
-

@@ -1,5 +1,5 @@
 ---
-title: "Cognitive Bias & Dissonance with Dr John Rich"
+title: "Cognitive Bias & Dissonance with Dr. John Rich"
 header_image: "logo.png"
 published: true
 written_at_date: 10-08-2017
