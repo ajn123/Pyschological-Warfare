@@ -9,11 +9,10 @@ people_mentioned: {"Sigmund Freud": "https://en.wikipedia.org/wiki/Sigmund_Freud
  									"Gordan Allport" : "https://en.wikipedia.org/wiki/Gordon_Allport"}
 timestamp: ["this is the first time stamp [0:00]",
 						 "this is the second time stamp [3:23]"]
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337403249"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337950336"
 user_id: 1
 ---
-
-'A lot of people are more biased than they are unbiased'
+le are more biased than they are unbiased'
 
 Enjoy this podcast with Dr. John Rich :).
 
