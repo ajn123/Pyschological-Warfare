@@ -3,6 +3,7 @@
 <%= link_to(article.title, show_page_path(article)) %>
 
   <div class="sub header">
+    <% puts article.title %>
     <%= article.written_at_date.strftime('%B %d, %Y') %>
 
 <h3>

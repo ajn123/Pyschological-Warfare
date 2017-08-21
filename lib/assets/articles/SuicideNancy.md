@@ -2,10 +2,10 @@
 title: "Learning from Depression With Nancy Virden"
 header_image: "logo.png"
 published: true
-written_at_date: 09-21-2017
+written_at_date: 21-08-2017
 tags: [ "Inspiration"]
-useful_links: { "Nancy Virden Website": "https://nancyvirden.com/welcome/about-nancy/" ,
-"Mental Health America" : "http://www.mentalhealthamerica.net/"}
+useful_links: { "Nancy Virden Website" : "https://nancyvirden.com/welcome/about-nancy/",
+								"Mental Health America" : "http://www.mentalhealthamerica.net/"}
 people_mentioned: {}
 timestamp: []
 embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338831889"

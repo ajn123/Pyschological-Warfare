@@ -1,7 +1,7 @@
 ---
 title: "YOUR TITLE HERE"
 header_image: "logo.png"
-published: true
+published: false
 written_at_date: 01-01-2017
 tags: ["Entrepreneurship", "Inspiration"]
 useful_links: { "The people's choice": "https://github.com/steveklabnik/metadown" }
