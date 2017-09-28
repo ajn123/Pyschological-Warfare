@@ -43,8 +43,12 @@
     <div class="ui raised container segment">
       <%= image_tag("#{article.header_image}",  class: "ui container image") %>
     </div>
-     <%= article.content.html_safe %>
-
+    <% if  @read_more == false %>
+     <%=  article.content.html_safe %>
+    <% else %>
+        <%= truncate(ActionView::Base.full_sanitizer.sanitize(article.content.html_safe), length: 200) %>
+    <% end %>
+     
     <% if @read_more == false %>
 
       <% if article.embedded_link != "" %>
