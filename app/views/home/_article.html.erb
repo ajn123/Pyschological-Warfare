@@ -41,7 +41,7 @@
    </div>
 
     <div class="ui raised container segment">
-      <%= image_tag("#{article.header_image}",  class: "ui container image") %>
+      <%= link_to(image_tag("#{article.header_image}",  class: "ui container image"), show_page_path(article)) %>
     </div>
     <% if  @read_more == false %>
      <%=  article.content.html_safe %>
