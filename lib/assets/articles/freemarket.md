@@ -25,10 +25,10 @@ Want an example ?   [Microsofts Bill Gates squashed innovation in favor of his s
 To be frank, if you put someone in a system that idolizes there own personal pursuit of greed over everything else, in practice they will seek out all possible paths to only propel there self interest at the detriment of anything else.  The free market system defines that as amoral not immoral.  **In conclusion, the invisible hand, does not exist.**
 
 These are the worst examples of the pursuit of profit at all costs: 
-* [Bayer](https://www.youtube.com/watch?v=fPO8wIaKQ5Y "Bayer")
-* [UHBS](https://www.youtube.com/watch?v=LsiTDf8fFWg "HSBC")
+* [Bayer](https://www.youtube.com/watch?v=fPO8wIaKQ5Y)
+* [UHBS](https://www.youtube.com/watch?v=LsiTDf8fFWg)
 * [Monsanto](https://www.youtube.com/watch?v=r00IZCaC8i8)
- * [Exxon Mobil](https://www.nytimes.com/2017/08/22/opinion/exxon-climate-change-.html)
+* [Exxon Mobil](https://www.nytimes.com/2017/08/22/opinion/exxon-climate-change-.html)
 
 In reality, there is no invisible hand that corrects the market, the pursuit of your own ideals eventually ends up with you benefiting and the rest of the world bearing the cost, [wether that be through lack of innovation because you pushed competitors out of the market](https://www.huffingtonpost.com/the-influence/real-reasons-marijuana-is-banned_b_9210248.html),  [externalizing the true cost of your product onto the environment](https://www.pri.org/stories/2015-06-07/imf-true-cost-fossil-fuels-53-trillion-year), [or violating human rights for an extra buck.](http://talkingpointsmemo.com/features/privatization/two/) 
 
