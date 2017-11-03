@@ -33,6 +33,10 @@ class HomeController < ApplicationController
 
   end
 
+  def listen 
+    @show_masthead = false
+  end
+
   def default_values
     @read_more = false
     if self.action_name == "index"
