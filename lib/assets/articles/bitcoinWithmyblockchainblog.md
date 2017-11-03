@@ -3,7 +3,7 @@ title: "Understanding the Block Chain and why Bitcoin is just the beginning"
 header_image: "bitcoin.png"
 published: true
 written_at_date: 27-09-2017
-tags: ["Entrepreneurship", "Currency"]
+tags: ["Entrepreneurship", "Currency", "Techonology"]
 useful_links: { "My Block Chain Blog" : "https://www.myblockchainblog.com/", 
 								"Chain Link": "https://link.smartcontract.com" }
 people_mentioned:  {}

@@ -1,6 +1,6 @@
 ---
 title: "The News Outlets I use to avoid fake news"
-header_image: "fightFakeNews.png"
+header_image: "fakenews.png"
 published: true
 written_at_date: 25-08-2017
 tags: ["Politics"]
