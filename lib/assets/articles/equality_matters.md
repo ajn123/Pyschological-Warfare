@@ -1,6 +1,6 @@
 ---
 title: "Why Equality Matters"
-header_image: "equalityPDF.png"
+header_image: "equality.jpg"
 published: true
 written_at_date: 31-10-2017
 tags: ["Inspiration", "Equality"]
