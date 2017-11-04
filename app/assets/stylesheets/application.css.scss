@@ -103,6 +103,7 @@ $mastheadSize: 200px;
 
 
 
+
 .CodeRay {
   background-color: $silveColor;
   border-style: dotted;
@@ -130,6 +131,20 @@ pre {
 h3  {
   margin: 5px !important;
 }
+
+.item {
+  clear: both;
+  margin: 10px;
+}
+
+.image{
+ margin: 20px;
+}
+
+.divider{
+  clear: both;
+}
+
 
 .userbar {
   background-color: $silveColor !important;

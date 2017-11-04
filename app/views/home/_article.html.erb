@@ -1,5 +1,30 @@
 
-<h1 class="ui header left aligned">
+
+<!--
+
+  <div class="ui horizontal divider">
+    Share
+  </div>
+
+  <div class="ui center aligned spaced horizontal segments">
+
+<a href="https://www.facebook.com/psychowarfare" class="ui blue inverted segment"><i class="facebook large icon"></i> Share</a>
+<a class="ui teal inverted segment" href="https://twitter.com/intent/tweet?text=Hello%20world"> <i class="twitter large icon"></i>Tweet</a>
+<a href="mailto:name@email.com" class="ui black inverted segment"><i class="mail large  icon"></i>Email</a>
+
+
+
+    </div>
+-->
+
+ 
+<div class="ui item">
+      <%= link_to(image_tag("#{article.header_image}",  class: "ui medium floated left image"), show_page_path(article)) %>
+   
+
+   <div class="ui float right content">
+
+    <h1 class="ui header left aligned">
 <%= link_to(article.title, show_page_path(article)) %>
 
   <div class="sub header">
@@ -21,35 +46,16 @@
 
 </h1>
 
-<!--
-
-  <div class="ui horizontal divider">
-    Share
-  </div>
-
-  <div class="ui center aligned spaced horizontal segments">
-
-<a href="https://www.facebook.com/psychowarfare" class="ui blue inverted segment"><i class="facebook large icon"></i> Share</a>
-<a class="ui teal inverted segment" href="https://twitter.com/intent/tweet?text=Hello%20world"> <i class="twitter large icon"></i>Tweet</a>
-<a href="mailto:name@email.com" class="ui black inverted segment"><i class="mail large  icon"></i>Email</a>
-
-
-
-    </div>
--->
-
-   <div class="ui horizontal divider">
-     ENJOY
-   </div>
-
-    <div class="ui raised container segment">
-      <%= link_to(image_tag("#{article.header_image}",  class: "ui container image"), show_page_path(article)) %>
-    </div>
+      
     <% if  @read_more == false %>
      <%=  article.content.html_safe %>
     <% else %>
-        <%= truncate(ActionView::Base.full_sanitizer.sanitize(article.content.html_safe), length: 200) %>
+        <%= truncate(ActionView::Base.full_sanitizer.sanitize(article.content.html_safe), length: 300) %>
     <% end %>
+
+    </div>
+
+    </div>
      
     <% if @read_more == false %>
 
@@ -99,10 +105,17 @@
     </ul>
     <% else %>
      <div class="ui left aligned header">
+      <!--
     <%= link_to show_page_path(article), class: "ui blue basic massive button" do %>
       Listen & Comment
     <% end %>
+  -->
   </div>
 
 
     <% end %>
+
+      <div class="ui horizontal divider">
+     enjoy
+   </div>
+
