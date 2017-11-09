@@ -28,4 +28,13 @@ module ApplicationHelper
 	  markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
     markdown_to_html.render(text).html_safe
 	end
+
+	def blog_image_helper(params)
+		if params
+			"ui floated left segment image"
+		else
+			"ui centered medium segment article_image image"
+		end
+		
+	end
 end

@@ -138,13 +138,26 @@ h3  {
 }
 
 .image{
- margin: 20px;
+ margin: 20px 20px 30px 20px;
+
  height: 200px;
  width: 200px;
 }
 
+.ui.segment{
+  margin-bottom: 20px;
+}
+
+.ui.segment:last-child {
+    margin-bottom: 20px;
+}
+
 .divider{
   clear: both;
+}
+
+.centered {
+  margin-bottom: 20px;
 }
 
 

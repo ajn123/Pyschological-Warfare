@@ -2,9 +2,12 @@ class HomeController < ApplicationController
 
   before_action :default_values
 
+
+
   def index
     @social = {"twitter": "Tweet", "facebook": "Share", "mail": "E-mail"}
     @articles = Article.all
+    @is_root = true
   end
 
   def show
@@ -39,6 +42,7 @@ class HomeController < ApplicationController
 
   def default_values
     @read_more = false
+    @is_root = false
     if self.action_name == "index"
       @read_more = true
 

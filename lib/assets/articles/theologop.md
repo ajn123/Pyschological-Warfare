@@ -13,4 +13,4 @@ user_id: 1
 
 NOTE:  You can watch the youtube video of the interview [here](https://www.youtube.com/watch?v=eXwFzMbwADQ&feature=youtu.be).
 
-This week I interview a fellow Austinite, Lady TheoloGOP. a former evangelical with a plethora of knowledge and understanding of religion, how people view religion, and how this effects our politics.
+This week I interview a fellow Austinite, Lady TheoloGOP.  A former evangelical with a plethora of knowledge and understanding of religion, how people view religion, and how this effects our politics.
