@@ -11,7 +11,7 @@ embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.co
 user_id: 1
 ---
 
-NOTE:  You can watch the youtube video of the interview [here](https://www.youtube.com/watch?v=eXwFzMbwADQ&feature=youtu.be).
+NOTE:  You can watch the youtube video of the interview (with subtitles) [here](https://www.youtube.com/watch?v=eXwFzMbwADQ&feature=youtu.be).
 
 UPDATE:  The transcript for this talk is [here](https://www.dropbox.com/s/deo9hwvnuaidw92/PsychoWarfare_Episode_30_TheoloGOP%20%281%29.pdf?dl=0)
 
