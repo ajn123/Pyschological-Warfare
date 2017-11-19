@@ -12,3 +12,5 @@ user_id: 1
 ---
 
 In this breakthrough podcast, I talk to Guy Mcpherson about climate change and if we can avoid run away green house gas emissions.
+
+Give it a listen!  It is very informative.
