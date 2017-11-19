@@ -5,7 +5,8 @@ published: false
 written_at_date: 25-11-2017
 tags: ["Politics", "Philosophy"]
 useful_links: { "Democracy Incorporated Book": "https://www.amazon.com/Democracy-Incorporated-Managed-Inverted-Totalitarianism/dp/069114589X" }
-people_mentioned: {"Sheldon Wolin": "https://en.wikipedia.org/wiki/Sheldon_Wolin", "Noam Chompsky" : "https://en.wikipedia.org/wiki/Noam_Chomsky" }
+people_mentioned: {"Sheldon Wolin": "https://en.wikipedia.org/wiki/Sheldon_Wolin",
+									 "Noam Chompsky" : "https://en.wikipedia.org/wiki/Noam_Chomsky" }
 timestamp: []
 embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831"
 user_id: 1
