@@ -26,9 +26,9 @@ embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.co
 
 user_id: 1
 ---
-``
+``` text
 The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy. - MLK Jr.
-``
+```
 
 Hello, World!  My name is Alexander (AJ) Joseph Norton.  Welcome to my first podcast!  I hope to explore the deep dimensions of our minds, leaving no stone unturned.  I want to talk about health, books to read, as well as any other subject of interest.
 
