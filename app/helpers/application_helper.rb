@@ -43,9 +43,9 @@ module ApplicationHelper
 
 	def blog_image_helper(params)
 		if params
-			"ui floated left medium segment image"
+			"ui floated left medium segment index_image"
 		else
-			"ui centered huge segment article_image image"
+			"ui centered huge segment article_image rounded image"
 		end
 		
 	end
