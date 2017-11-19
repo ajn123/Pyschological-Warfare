@@ -22,6 +22,7 @@ module ApplicationHelper
 	  options = {
 	    :fenced_code_blocks => true,
 	    :no_intra_emphasis => true,
+	    :link_attributes => {target: "_blank" },
 	    :autolink => true,
 	    :lax_html_blocks => true,
 	  }
