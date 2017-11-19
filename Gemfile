@@ -36,8 +36,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'launchy'
 
-gem 'acts-as-taggable-on', git: 'https://github.com/mbleigh/acts-as-taggable-on'
-
+gem 'acts-as-taggable-on'
 
 
 group :development, :test do
