@@ -73,7 +73,7 @@
      <ul class="ui list">
        <% article.useful_links.each do |key, value| %>
         <li>
-         <%= link_to "#{key}", value %>
+         <%= link_to "#{key}", value, target: :blank %>
          </li>
          <% end %>
 
@@ -100,7 +100,7 @@
 
        <% article.people_mentioned.each do |key, value| %>
          <li>
-           <%= link_to "#{key}", value %>
+           <%= link_to "#{key}", value, target: :blank %>
          </li>
        <% end %>
     </ul>

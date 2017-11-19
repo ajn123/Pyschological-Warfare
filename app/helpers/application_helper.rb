@@ -18,7 +18,18 @@ module ApplicationHelper
 
 	def markdown(text)
 	  coderayified = CodeRayify.new(:filter_html => true, 
-	                                :hard_wrap => true)
+	                                :hard_wrap => true,
+	                                link_attributes: { rel: 'nofollow', target: "_blank" })
+
+
+	  options2 = {
+      filter_html:     true,
+      hard_wrap:       true,
+      link_attributes: { rel: 'nofollow', target: "_blank" },
+      space_after_headers: true,
+      fenced_code_blocks: true
+    }
+
 	  options = {
 	    :fenced_code_blocks => true,
 	    :no_intra_emphasis => true,

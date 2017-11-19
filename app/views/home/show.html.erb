@@ -5,7 +5,7 @@
       <div class="ui success header segment">Recommended Posts</div>
       <% if @article.recommended_articles.any? %>
         <% @article.recommended_articles.each do |r| %>
-        <%= link_to show_page_path(r) do %>
+        <%= link_to show_page_path(r), target: :blank do %>
           <div class="ui success segment">
             <%= r.title %>
           </div>

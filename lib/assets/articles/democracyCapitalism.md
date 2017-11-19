@@ -1,7 +1,7 @@
 ---
 title: "What is Inverted Totalitarianism ?"
 header_image: "managedDemo.png"
-published: true
+published: false
 written_at_date: 25-11-2017
 tags: ["Politics", "Philosophy"]
 useful_links: { "Democracy Incorporated Book": "https://www.amazon.com/Democracy-Incorporated-Managed-Inverted-Totalitarianism/dp/069114589X" }
