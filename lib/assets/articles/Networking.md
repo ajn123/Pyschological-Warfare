@@ -1,6 +1,6 @@
 ---
 title: "Awesome Networking"
-header_image: "logo.png" 
+header_image: "networking.png" 
 published: true
 written_at_date: 12-07-2017
 tags: ["Networking"]
@@ -11,7 +11,7 @@ useful_links: { "Never Eat Alone": "https://www.amazon.com/dp/B00H6JBFOS",
 people_mentioned: {"Bill Clinton": "https://en.wikipedia.org/wiki/Bill_Clinton"}
 timestamp: ["this is the first time stamp [0:00]",
 						 "this is the second time stamp [3:23]"]
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/3329698312"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831"
 user_id: 1
 ---
 In this episode, I take a crack at explaining networking and more importantly how to gain rapport with everyone around you and on the web.
