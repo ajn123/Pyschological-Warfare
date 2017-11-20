@@ -11,7 +11,6 @@ timestamp: []
 embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831"
 user_id: 1
 ---
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
 In this episode, I sit down with myself and talk about the work of the late-great political philosopher [Sheldon Wolin](https://en.wikipedia.org/wiki/Sheldon_Wolin).  I dabble in his definition of inverted totalitarianism.  In his book, he states that in inverted totalitarianism, economics trumps politics.  Our system is a kind of faux politics that is debated all the time, but this conceals that the real power is decided within corporate boardrooms.  Wedge issues such as gay rights and abortion headline the day when the heart of the debates should reflect on concentration of wealth to inflict class warfare.  
 
