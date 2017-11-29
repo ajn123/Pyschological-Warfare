@@ -13,8 +13,8 @@ embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.co
 user_id: 1
 ---
 
-``
+``` text
 "I think that you can not address mental health, if you are not addressing multiple domains of wellness."
-``
+```
 
 This week I had the pleasure of interviewing Justin Huft.  A young teacher in California who has dedicated his life to helping others through psychology.  In this podcast, we dive into his research, Black Lives Matter, how movies and social norms shape how we think of others, and much more.
