@@ -1,6 +1,6 @@
 ---
 title: "Life as a simple Bachelor"
-header_image: "simpleBachelor.jpg"
+header_image: "simpleBachelor.png"
 published: true
 written_at_date: 27-07-2017
 tags: ["Minimalism", "Inspiration"]
