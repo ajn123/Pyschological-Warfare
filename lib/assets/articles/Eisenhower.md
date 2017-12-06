@@ -1,20 +1,17 @@
 ---
 title: "The life & times of Eisenhower"
 header_image: "likeike.png"
-published: false
+published: true
 written_at_date: 03-12-2017
 tags: ["Politics"]
-useful_links: {  }
+useful_links: { }
 people_mentioned: {"Dwight Eisenhower": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower"}
 timestamp: ["this is the first time stamp [0:00]",
 						 "this is the second time stamp [3:23]"]
-embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831"
+embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/365672063"
 user_id: 1
 ---
 
+Eisenhower was an American Army general and statesman who served as the 34th President of the United States from 1953 to 1961. During World War II, he was a five-star general in the United States Army and served as Supreme Commander of the Allied Expeditionary Forces in Europe. He was responsible for planning and supervising the invasion of North Africa in Operation Torch in 1942–43 and the successful invasion of France and Germany in 1944–45 from the Western Front.
 
-
-``` text
-In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist. We must never let the weight of this combination endanger our liberties or democratic processes. We should take nothing for granted. Only an alert and knowledgeable citzenry can compel the proper meshing of the huge industrial and military machinery of defense with our peaceful methods and goals, so that security and liberty may prosper together.
-- Dwight Eisenhower
-```
+In this podcast we talk about his key term, [the military industrial complex](https://en.wikipedia.org/wiki/Military%E2%80%93industrial_complex).
