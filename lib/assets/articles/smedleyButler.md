@@ -1,7 +1,7 @@
 ---
 title: "Understanding Smedly Butler"
 header_image: "racketWar.png"
-published: false
+published: true
 written_at_date: 07-12-2017
 tags: ["Politics", "Inspiration"]
 useful_links: { "War is a Racket ": "https://www.ratical.org/ratville/CAH/warisaracket.html" }
