@@ -1,5 +1,5 @@
 ---
-title: "Understanding Smedly Butler"
+title: "Understanding Smedley Butler"
 header_image: "racketWar.png"
 published: true
 written_at_date: 07-12-2017
