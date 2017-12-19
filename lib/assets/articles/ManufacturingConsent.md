@@ -1,8 +1,8 @@
 ---
 title: "Noam Chomsky & Manufacturing Consent"
 header_image: "chomsky.png"
-published: false
-written_at_date: 12-18-2017
+published: true
+written_at_date: 18-12-2017
 tags: ["Politics", "Media"]
 useful_links: { }
 people_mentioned: {}
