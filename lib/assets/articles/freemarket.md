@@ -3,7 +3,7 @@ title: "The Free Market Fallacy"
 header_image: "freemarket.jpg"
 published: false
 written_at_date: 20-10-2017
-tags: ["Entrepreneurship"]
+tags: ["Entrepreneurship", "Politics"]
 useful_links: { }
 people_mentioned: { }
 timestamp: ["this is the first time stamp [0:00]",
