@@ -1,14 +1,26 @@
 
 
 <!-- Following Menu -->
-  <div class="ui  vertical masthead center aligned segment">
-    <div class="ui text container">
-      <h2 class="ui inverted">
-      </h1>
-       <%= link_to(home_listen_path, target: :blank) do %>
-           <div class="ui huge red  button">Listen Now
-             <i class="right play icon"></i>
-          </div>
+<div class="ui centered column container grid  segment">
+
+
+
+  <div class="ui masthead">
+   <% @mast_head.each do |pic| %>
+         <%= link_to(show_page_path(pic), class: "ui medium image home_index_image") do %>
+          <%= image_tag(pic.header_image) %>
+             <div class="archive-home__content">
+                  <h4> <%= pic.title %> </h4>
+               </div>
         <% end %>
-    </div>
+    <% end %>
+
+
+
   </div>
+  <%= link_to(home_listen_path, target: :blank) do %>
+         <div class="ui huge red button" id="listen_button">Listen To The Podcast
+           <i class="right play icon"></i>
+        </div>
+      <% end %>
+</div>

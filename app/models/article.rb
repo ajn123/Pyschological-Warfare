@@ -13,11 +13,11 @@ class Article < ApplicationRecord
   serialize :people_mentioned, Hash
   serialize :timestamp, Array
 
-
   # validates :embedded_link, presence: { message: "needs a Podcast link" }, uniqueness: true
 
   default_scope { order('written_at_date DESC, updated_at').where(published: true) }
 
+	scope :index_page, -> { offset(3) }
   # Denormalization methods
   # Check the documentation for information on advanced usage
   def commentable_title

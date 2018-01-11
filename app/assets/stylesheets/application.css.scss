@@ -12,7 +12,7 @@
  *
  *= require_tree .
  *= require_self
- *= require the_comments 
+ *= require the_comments
  */
 
  @import "semantic-ui";
@@ -44,32 +44,35 @@ $mastheadSize: 390px;
     }
 
 
- .masthead.segment {
-      color: white;
-      min-height: $mastheadSize;
-      padding: 1em 0em;
-    }
-    .masthead .logo.item img {
-      margin-right: 1em;
-    }
-    .masthead .ui.menu .ui.button {
-      margin-left: 0.5em;
-    }
-    .masthead h1.ui.header {
+.home_index_image {
 
-      font-size: 4em;
-      font-weight: normal;
+.archive-home__content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: rgba(20, 20, 20, .6);;
+        z-index: 1;
+        color: white;
+        transition: all .3s ease 0s;
+        padding: 8px 25px;
+
     }
-    .masthead h2 {
 
-
-      margin-top: 3em;
-      font-size: 1.7em;
-      font-weight: normal;
+    &:hover {
+      .archive-home__content {
+        background: black;
+        color: #ecf0f1;
+        padding: 16px 25px;
+      }
     }
-    
 
 
+
+
+
+}
 
  .overlay {
     float: left;
@@ -91,14 +94,20 @@ $mastheadSize: 390px;
   }
 
 
+.masthead {
+  padding-top: 30px;
+}
 
+#listen_button {
+  margin: 10px;
+}
 
  .ui.message {
- margin-left: 20%;
-  margin-right: 20%;
- position: fixed;
- bottom: 0;
- width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+   position: fixed;
+   bottom: 0;
+   width: 60%;
  }
 
 
@@ -117,14 +126,6 @@ pre {
   margin: 1px;
 
   white-space: pre-line;
-}
-
-
-.masthead {
-  background-image: image-url("masthead.png") !important;
-  background-size: cover !important;
-   background-repeat: no-repeat;
-   background-position: center !important;
 }
 
 
@@ -195,5 +196,3 @@ h3  {
     color: black; }
     .pagination a:hover, .pagination a:focus {
       text-decoration: underline; }
-
-
