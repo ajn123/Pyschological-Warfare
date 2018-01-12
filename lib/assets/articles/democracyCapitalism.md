@@ -1,6 +1,6 @@
 ---
 title: "What is Inverted Totalitarianism ?"
-header_image: "managedDemo.png"
+header_image: "managedDemo.jpg"
 published: true
 written_at_date: 10-12-2017
 tags: ["Politics", "Philosophy"]
@@ -51,6 +51,3 @@ I could not have put it any better myself!  Wolin states:
 ``` text
 The American political system was not born a democracy, but born with a bias against democracy. It was constructed by those who were either skeptical about democracy or hostile to it. Democratic advance proved to be slow, uphill, forever incomplete. The republic existed for three - quarters of a century before formal slavery was ended; another hundred years before black Americans were assured of their voting rights. Only in the twentieth century were women guaranteed the vote and trade unions the right to bargain collectively. In none of these instances has victory been complete: women still lack full equality, racism persists, and the destruction of the remnants of trade unions remains a goal of corporate strategies. Far from being innate, democracy in America has gone against the grain, against the very forms by which the political and economic power of the country has been and continues to be ordered.
 ```
-
-
-

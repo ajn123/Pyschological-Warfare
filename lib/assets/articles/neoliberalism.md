@@ -1,6 +1,6 @@
 ---
 title: "What is neoliberalism ?"
-header_image: "neoliberal.png"
+header_image: "neoliberal.jpg"
 published: true
 written_at_date: 09-12-2017
 tags: ["Politics"]
