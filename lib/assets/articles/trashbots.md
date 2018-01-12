@@ -1,6 +1,6 @@
 ---
 title: "Trashbots - Transforming the future cheaply"
-header_image: "trashbots.png"
+header_image: "trashbots.jpg"
 published: true
 written_at_date: 22-07-2017
 tags: ["Entrepreneurship"]

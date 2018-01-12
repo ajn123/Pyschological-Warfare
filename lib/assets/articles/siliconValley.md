@@ -1,6 +1,6 @@
 ---
 title: "Silicon Valley: Founder Stories"
-header_image: "siliconValley.png"
+header_image: "siliconValley.jpg"
 published: true
 written_at_date: 30-07-2017
 tags: ["Entrepreneurship", "Inspiration"]

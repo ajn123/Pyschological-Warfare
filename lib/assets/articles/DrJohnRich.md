@@ -1,6 +1,6 @@
 ---
 title: "Cognitive Bias & Dissonance with Dr. John Rich"
-header_image: "cogdis.png"
+header_image: "cogdis.jpg"
 published: true
 written_at_date: 10-08-2017
 tags: ["Cognitive", "Informative"]
