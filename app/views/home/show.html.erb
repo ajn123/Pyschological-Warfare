@@ -2,7 +2,7 @@
 
 
     <div class="ui raised segments">
-      <div class="ui success header segment">Recommended Posts</div>
+      <div class="ui success  inverted header segment">Recommended Posts</div>
       <% if @article.recommended_articles.any? %>
         <% @article.recommended_articles.each do |r| %>
         <%= link_to show_page_path(r), target: :blank do %>
@@ -11,14 +11,14 @@
           </div>
           <% end %>
         <% end %>
-          
+
       <% else %>
        <div class="ui success segment">
             Check out more articles on the sidebar!
           </div>
-          
+
       <% end %>
-      
+
       </div>
 
 
@@ -28,5 +28,3 @@
 
 
 <%= render partial: 'the_comments/tree', locals: { commentable: @article, comments_tree: @comments } %>
-
-
