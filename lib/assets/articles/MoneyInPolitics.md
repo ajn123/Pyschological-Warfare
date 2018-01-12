@@ -1,6 +1,6 @@
 ---
 title: "Money in Polotics with Wolf-PAC"
-header_image: "moneyInPolitics.png"
+header_image: "moneyInPolitics.jpg"
 published: true
 written_at_date: 30-11-2017
 tags: ["Politics"]
@@ -14,7 +14,7 @@ user_id: 1
 
 
 ``` text
-	“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style” ― Maya Angelou 
+	“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style” ― Maya Angelou
 ```
 
 

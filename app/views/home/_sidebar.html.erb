@@ -96,22 +96,3 @@
 
 <% end %>
 </div>
-
-<div class="ui horizontal divider">
-  Topics
-</div>
-
-
-<div class="ui divided selection list labels">
-
-
-
-  <%  Article.tag_counts.each do |t| %>
-  <%= link_to search_path(t.name), class: "ui teal basic label" do %>
-  <%= t.name %>
-  <div class="detail">
-   (<%= t.count %>)
- </div>
- <% end %>
- <% end %>
-</div>

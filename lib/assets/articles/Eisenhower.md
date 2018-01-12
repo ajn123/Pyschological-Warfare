@@ -1,6 +1,6 @@
 ---
 title: "The life & times of Eisenhower"
-header_image: "likeike.png"
+header_image: "likeike.jpg"
 published: true
 written_at_date: 03-12-2017
 tags: ["Politics"]

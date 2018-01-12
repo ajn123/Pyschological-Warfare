@@ -1,6 +1,6 @@
 ---
 title: "Chandler Scott & Understanding Money With Jim Mosquera"
-header_image: "chandlerScott.png"
+header_image: "chandlerScott.jpg"
 published: true
 written_at_date: 03-11-2017
 tags: ["Financial"]

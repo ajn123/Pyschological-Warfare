@@ -1,6 +1,6 @@
 ---
 title: "Guy Mcpherson on Methane Release"
-header_image: "northPole.png"
+header_image: "northPole.jpg"
 published: true
 written_at_date: 15-10-2017
 tags: ["Climate"]

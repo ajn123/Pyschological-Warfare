@@ -1,6 +1,6 @@
 ---
 title: "The news outlets I use to avoid fake news"
-header_image: "fakenews.png"
+header_image: "fakenews.jpg"
 published: true
 written_at_date: 25-08-2017
 tags: ["Politics", "Media"]

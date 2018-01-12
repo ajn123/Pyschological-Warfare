@@ -1,6 +1,6 @@
 ---
 title: "Learning from Depression With Nancy Virden"
-header_image: "depression.png"
+header_image: "depression.jpg"
 published: true
 written_at_date: 21-08-2017
 tags: [ "Inspiration"]

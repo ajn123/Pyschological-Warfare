@@ -17,37 +17,27 @@
     </div>
 -->
 
- 
+
 <div class="ui item">
       <%= link_to(image_tag("#{article.header_image}",  class: "#{ blog_image_helper(@is_root)}"), show_page_path(article)) %>
-   
+
 
    <div class="ui float right content">
-    
+
 
     <h1 class="ui header left aligned">
 <%= link_to(article.title, show_page_path(article)) %>
 
   <div class="sub header">
-    <% puts article.title %>
     <%= article.written_at_date.strftime('%B %d, %Y') %>
 
-<h3>
- <div class="ui header">
-    Topics: <% article.tag_counts.each do |t| %>
-    <%= link_to search_path(t.name), class: "ui teal basic small label" do %>
-      <%= t.name %>
-    <% end %>
-  <% end %>
-  </div>
-  </h3>
 
 
   </div>
 
 </h1>
 
-      
+
     <% if  @read_more == false %>
      <%=  article.content.html_safe %>
     <% else %>
@@ -57,7 +47,7 @@
     </div>
 
     </div>
-     
+
     <% if @read_more == false %>
 
       <% if article.embedded_link != "" %>
@@ -119,4 +109,3 @@
       <div class="ui horizontal divider">
      enjoy
    </div>
-

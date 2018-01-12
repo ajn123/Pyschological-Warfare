@@ -1,6 +1,6 @@
 ---
 title: "Understanding Smedley Butler"
-header_image: "racketWar.png"
+header_image: "racketWar.jpg"
 published: true
 written_at_date: 07-12-2017
 tags: ["Politics", "Inspiration"]
@@ -13,6 +13,3 @@ user_id: 1
 In podcast we dive into 2 time medal of honor winner, Smedley Butler.
 
 Do you think the 1933 business plot was real?  Comment below!
-
-
-

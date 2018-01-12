@@ -1,6 +1,6 @@
 ---
 title: "Awesome Networking"
-header_image: "networking.png" 
+header_image: "networking.jpg" 
 published: true
 written_at_date: 12-07-2017
 tags: ["Networking"]
