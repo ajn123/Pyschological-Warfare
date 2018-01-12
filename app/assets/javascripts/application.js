@@ -12,7 +12,7 @@
 //
 
 //= require jquery
-//= require jquery_ujs 
+//= require jquery_ujs
 //= require turbolinks
 //= require semantic-ui
 //= require the_comments
@@ -30,27 +30,27 @@ var showMessage = function(status) {
 
 
   if (status === "success" ) {
-    $('.ui.message').closest('.message').addClass('green'); 
+    $('.ui.message').closest('.message').addClass('green');
     $('.ui.message > .header').replaceWith("<div class=\"header centered\"> Thanks for signing up! <div>");
   }
   else if(status === "request")
   {
-    $('.ui.message').closest('.message').addClass('blue'); 
+    $('.ui.message').closest('.message').addClass('blue');
     $('.ui.message > .header').replaceWith("<div class=\"header centered\"><a class=\"item\" onclick=\"showEmailModel();\">Like what you see ?  Click here to sign up for curated emails! </a></div>")
   }
   else {
-    $('.ui.message').closest('.message').addClass('red'); 
+    $('.ui.message').closest('.message').addClass('red');
     $('.ui.message > .header').replaceWith("<div class=\"header centered\"><a class=\"item\" onclick=\"showEmailModel();\">Oops! Click here to try Again</a></div>")
   }
 
   // show message
   if ($('.ui.message').hasClass('hidden')) {
-     $('.message .close').closest('.message').transition('slide down');  
+     $('.message .close').closest('.message').transition('slide down');
   }
-      
+
 if (status === "success") {
  $('.message .close').closest('.message').delay(5000).queue(function() {
-       $(this).transition('slide up').dequeue(); 
+       $(this).transition('slide up').dequeue();
     });
   }
 else {}
@@ -109,9 +109,9 @@ document.addEventListener('turbolinks:load', function(event) {
       });
 
 
+			$('.ui.sidebar')
+			 .sidebar('attach events', '.toc.item')
+		 ;
+
+
 });
-
-
-
-
-

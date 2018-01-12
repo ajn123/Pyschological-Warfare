@@ -23,9 +23,13 @@ $blackColor: #2c3e50;
 $mastheadSize: 390px;
 
 
+
  .ui.menu .item img.logo {
     margin-right: 1.5em;
   }
+
+
+
 
 @media only screen and (max-width: 700px) {
       .ui.fixed.menu {
@@ -69,9 +73,6 @@ $mastheadSize: 390px;
     }
 
 
-
-
-
 }
 
  .overlay {
@@ -94,8 +95,8 @@ $mastheadSize: 390px;
   }
 
 
-.masthead {
-  padding-top: 30px;
+.topHeader {
+  padding-top: 50px;
 }
 
 #listen_button {
@@ -138,8 +139,8 @@ h3  {
   margin: 10px;
 }
 
-
 .ui.segment{
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -160,7 +161,6 @@ h3  {
   width: 200px;
 
 }
-
 
 .userbar {
   background-color: $silveColor !important;

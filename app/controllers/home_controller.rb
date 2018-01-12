@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   def index
     @social = {"twitter": "Tweet", "facebook": "Share", "mail": "E-mail"}
     @mast_head = Article.first(3)
-    @articles = Article.offset(3).paginate(:page => params[:page], per_page: 5)
+    @articles = Article.offset(3).paginate(:page => params[:page], per_page: 6)
     @is_root = true
   end
 

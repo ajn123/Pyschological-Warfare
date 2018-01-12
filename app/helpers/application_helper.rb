@@ -45,7 +45,7 @@ module ApplicationHelper
 		if params
 			"ui floated left medium segment index_image"
 		else
-			"ui centered huge segment article_image rounded image"
+			"ui centered large segment article_image rounded image"
 		end
 
 	end

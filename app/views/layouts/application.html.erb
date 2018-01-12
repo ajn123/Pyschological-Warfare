@@ -30,12 +30,13 @@
 
 
   <%= render 'topBar' %>
+  <div class="topHeader">
 
   <% if current_page?(controller: 'home', action: 'index')  %>
     <%= render 'masthead' %>
   <% end %>
 
-   <div class="ui two centered column container celled grid vertical stripe segment">
+   <div class="ui centered  grid vertical stripe segment">
 
      <div class="ui twelve wide column">
 
@@ -43,12 +44,10 @@
 
      </div>
 
-        <div class="ui four wide  segment column">
 
-          <%= render 'sidebar' %>
-
-        </div>
    </div>
+ </div>
+
 
     <%= render 'emailModal' %>
     <%= render 'footer' %>

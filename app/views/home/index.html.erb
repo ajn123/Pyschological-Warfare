@@ -12,8 +12,25 @@
 
 -->
 
+<div class="ui centered text container">
+  <h1 class="ui horizontal header divider">
+    All Episodes
+  </h1>
+</div>
+
 <%= will_paginate @articles %>
 
-<%= render :partial => "article", collection: @articles %>
+<div class="ui three stackable cards">
+  <% @articles.each do |article| %>
+    <div class="card">
+      <%= link_to(show_page_path(article), class: "image home_index_image") do %>
+        <%= image_tag article.header_image %>
+          <div class="archive-home__content">
+             <h4> <%= article.title %> </h4>
+          </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
 
 <%= will_paginate @articles %>
