@@ -37,6 +37,10 @@ class Article < ApplicationRecord
      self.save
   end
 
+	def published_date
+		self.written_at_date.strftime('%B %d, %Y')
+	end
+
   # Get tags all excluding itself
   def recommended_articles
     Article.tagged_with(self.tag_list, any: true).where.not(id: "#{self.id}").sample(5)

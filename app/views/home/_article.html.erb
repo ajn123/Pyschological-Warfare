@@ -37,7 +37,7 @@
     <h1 class="ui header left aligned">
 
       <div class="sub header">
-        <%= article.written_at_date.strftime('%B %d, %Y') %>
+        <%= article.published_date %>
       </div>
     </h1>
 
@@ -58,10 +58,10 @@
         Useful links
      </div>
 
-     <ul class="ui list">
+     <ul class="">
        <% article.useful_links.each do |key, value| %>
         <li>
-           <%= link_to "#{key}", value, target: :blank %>
+           <%= link_to "#{key}", value, target: :blank, class: "ui teal tag label" %>
         </li>
       <% end %>
     </ul>
@@ -86,11 +86,10 @@
       <div class="ui horizontal divider">
         People Mentioned
      </div>
-     <ul class="ui ordered list">
-
+     <ul class="">
        <% article.people_mentioned.each do |key, value| %>
          <li>
-           <%= link_to "#{key}", value, target: :blank %>
+           <%= link_to "#{key}", value, target: :blank, class: "ui blue tag label" %>
          </li>
        <% end %>
     </ul>
