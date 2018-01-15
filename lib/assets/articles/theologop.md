@@ -1,5 +1,5 @@
 ---
-title: "Lady TheoloGOP (@TheoloGOP)"
+title: "Understanding Evangelicals with Lady TheoloGOP (@TheoloGOP)"
 header_image: "theologop.jpg"
 published: true
 written_at_date: 10-11-2017
