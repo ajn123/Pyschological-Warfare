@@ -23,12 +23,12 @@
 
     <meta property="og:title" content="Psychological Warfare Podcast">
     <meta property="og:description" content="A podcast discussing the current state of politics, psychology, climate, and theory.">
-
-
-    <meta property="og:image" content="http://placehold.it/300">>
-    <meta property="og:url" content="http://psychowarfare.com">
-
-
+    <% if @article.nil?  %>
+      <meta property="og:image" content="<%=asset_url('logo.png') %>" >
+    <% else %>
+      <meta property="og:image" content="<%= asset_url(@article.header_image) %>" >
+    <% end %>
+    <meta property="og:url" content="<%= @path %>">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@psychowarfareHQ" />
     <meta name="twitter:creator" content="@psychowarfareHQ" />
