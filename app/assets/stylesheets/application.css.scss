@@ -39,7 +39,7 @@ ul {
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1080px) {
   .ui.fixed.menu {
       .item {
         &:first-child {
@@ -53,7 +53,7 @@ ul {
   }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 1081px) {
   .ui.fixed.menu {
       .item {
         &:first-child {
@@ -113,7 +113,7 @@ ul {
 
 
 .topHeader {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #listen_button {
