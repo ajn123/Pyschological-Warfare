@@ -2,12 +2,11 @@
 title: "YOUR TITLE HERE"
 header_image: "logo.png"
 published: false
-written_at_date: 01-01-2017
+written_at_date: DD-MM-YYYY
 tags: ["Entrepreneurship", "Inspiration"]
 useful_links: { "The people's choice": "https://github.com/steveklabnik/metadown" }
 people_mentioned: {"Bille Gates": "https://twitter.com/BillGates"}
-timestamp: ["this is the first time stamp [0:00]",
-						 "this is the second time stamp [3:23]"]
+timestamp: ["this is the first time stamp [0:00]"]
 embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332969831"
 user_id: 1
 ---
