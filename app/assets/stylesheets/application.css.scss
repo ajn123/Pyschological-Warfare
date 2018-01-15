@@ -40,21 +40,29 @@ ul {
 
 
 @media only screen and (max-width: 700px) {
-      .ui.fixed.menu {
-          .item {
-            &:first-child {
-              display: block;
-            }
+  .ui.fixed.menu {
+      .item {
+        &:first-child {
+          display: block;
+        }
 
-            + .item {
-              display: none !important;
+        + .item {
+          display: none !important;
+        }
+      }
+  }
+}
 
-            }
-          }
-
+@media only screen and (min-width: 701px) {
+  .ui.fixed.menu {
+      .item {
+        &:first-child {
+          display: none !important;
+        }
       }
 
-    }
+  }
+}
 
 
 .home_index_image {

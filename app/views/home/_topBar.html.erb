@@ -58,6 +58,17 @@
   <a class="active item">Home</a>
   <%= link_to("About", home_contact_path , class: "item") %>
   <%= link_to("Listen", home_listen_path , class: "item") %>
+  <%= link_to "https://twitter.com/PsychoWarfareHQ", target: :blank, class: "item"  do  %>
+        <div class="ui circular twitter icon button">
+          <i class="twitter icon"></i>
+        </div>
+     <% end %>
+
+     <%= link_to "https://www.youtube.com/channel/UClZ0kWdkSUvTIgFvpmX7jDA/videos", target: :blank, class: "item"  do  %>
+        <div class="ui circular youtube icon button">
+          <i class="youtube icon"></i>
+        </div>
+     <% end %>
   <%= link_to "https://www.patreon.com/bePatron?u=6850862", target: :blank, class: "item"  do  %>
 
    <div class="ui circular orange inverted button">
