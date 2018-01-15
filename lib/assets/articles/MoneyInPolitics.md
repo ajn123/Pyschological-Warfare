@@ -1,5 +1,5 @@
 ---
-title: "Money in Polotics with Wolf-PAC"
+title: "Money in Politics with Wolf-PAC"
 header_image: "moneyInPolitics.jpg"
 published: true
 written_at_date: 30-11-2017

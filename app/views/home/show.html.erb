@@ -1,21 +1,26 @@
 <%= render "article", article: @article %>
 
 
-    <div class="ui raised segments">
-      <div class="ui success  inverted header segment">Recommended Posts</div>
+    <div class="ui stacked segments">
+      <div class="ui inverted segment">
+        <h2 class="ui header"> 
+            Recommended Posts:
+       </h2> </div>
       <% if @article.recommended_articles.any? %>
         <% @article.recommended_articles.each do |r| %>
         <%= link_to show_page_path(r), target: :blank do %>
-          <div class="ui success segment">
-            <%= r.title %>
+          <div class="ui blue inverted segment">
+            <h3 class="ui header">
+              <%= r.title %>
+            </h3>
           </div>
           <% end %>
         <% end %>
 
       <% else %>
-       <div class="ui success segment">
+       <div class="ui red inverted segment">
             Check out more articles on the sidebar!
-          </div>
+        </div>
 
       <% end %>
 
