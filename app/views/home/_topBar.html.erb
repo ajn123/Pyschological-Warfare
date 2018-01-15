@@ -1,13 +1,16 @@
  <div class="ui fixed hidden borderless inverted menu">
+
     <div class="ui container">
+      <a class="item" onclick="toggleSideBar();" id="slider">
+        <i class="sidebar icon"></i>
+       </a>
+
     <%= link_to(root_path , class: "header item") do %>
         <%= image_tag("logo.png", class: "logo") %> Psychological Warfare
     <% end %>
 
-
     <div class="ui simple dropdown item">
       <i class="podcast circular inverted large purple icon"></i>
-  
       Subscribe For Free!
       <i class="dropdown icon"></i>
       <div class="menu">
@@ -16,7 +19,6 @@
         <%= link_to "Stitcher", "http://www.stitcher.com/s?fid=157669&refid=stpr", target: :blank, class: "item"  %>
         <%= link_to "Google Play", "https://play.google.com/music/m/I32iuki5prnjqqmcyjbnz2mitkq?t=Psychological_Warfare_with_AJ_Norton", target: :blank, class: "item" %>
         <%= link_to "Sound Cloud", "https://soundcloud.com/psychowarfare", target: :blank, class: "item" %>
-
       </div>
     </div>
 
@@ -41,21 +43,33 @@
             <i class="paypal icon"></i>Become a Patron
           </div>
         <% end %>
-
-
-
-
       <a onclick="showEmailModel();" class="ui right floated dropdown item" id="contactMe">
        <i class="large icons">
          <i class="alarm icon" id="emailModel"></i>
          <i class="inverted corner add circle red icon"></i>
          </i>
       </a>
-
-
-
-
-
     </div>
-
   </div>
+
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+  <a class="active item">Home</a>
+  <%= link_to("About", home_contact_path , class: "item") %>
+  <%= link_to("Listen", home_listen_path , class: "item") %>
+  <%= link_to "https://www.patreon.com/bePatron?u=6850862", target: :blank, class: "item"  do  %>
+
+   <div class="ui circular orange inverted button">
+     <i class="paypal icon"></i>Become a Patron
+   </div>
+ <% end %>
+  <a class="item">Subscribe For Free! <i class="dropdown icon"></i></a>
+
+      <%= link_to "iTunes", "https://itunes.apple.com/us/podcast/psychological-warfare-with-a-j-norton/id1265694390?mt=2", class: "item" %>
+      <%= link_to "Overcast", "https://overcast.fm/itunes1265694390/psychological-warfare-with-a-j-norton", target: :blank, class: "item" %>
+      <%= link_to "Stitcher", "http://www.stitcher.com/s?fid=157669&refid=stpr", target: :blank, class: "item"  %>
+      <%= link_to "Google Play", "https://play.google.com/music/m/I32iuki5prnjqqmcyjbnz2mitkq?t=Psychological_Warfare_with_AJ_Norton", target: :blank, class: "item" %>
+      <%= link_to "Sound Cloud", "https://soundcloud.com/psychowarfare", target: :blank, class: "item" %>
+
+</div>

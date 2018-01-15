@@ -24,6 +24,10 @@ var showEmailModel = function() {
 	$('.ui.basic.modal').modal('show');
 };
 
+var toggleSideBar = function() {
+	$('.ui.sidebar').sidebar('toggle');
+}
+
 
 var showMessage = function(status) {
   $('.ui.message').removeClass("red green black");
@@ -108,10 +112,6 @@ document.addEventListener('turbolinks:load', function(event) {
         showMessage("request");
       });
 
-
-			$('.ui.sidebar')
-			 .sidebar('attach events', '.toc.item')
-		 ;
 
 
 });
