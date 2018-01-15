@@ -21,12 +21,16 @@
 
     <%= favicon_link_tag("favicon.ico") %>
 
-    <meta property="og:title" content="Psychological Warfare Podcast">
-    <meta property="og:description" content="A podcast discussing the current state of politics, psychology, climate, and theory.">
     <% if @article.nil?  %>
       <meta property="og:image" content="<%=asset_url('logo.png') %>" >
+      <meta property="og:description" content="A podcast discussing the current state of politics, psychology, climate, and theory.">
+      <meta property="og:title" content="Psychological Warfare Podcast">
+
     <% else %>
       <meta property="og:image" content="<%= asset_url(@article.header_image) %>" >
+      <meta property="og:description" content=" <%= truncate(ActionView::Base.full_sanitizer.sanitize(@article.content.html_safe), length: 100) %>">
+      <meta property="og:title" content="<%= @article.title %>">
+
     <% end %>
     <meta property="og:url" content="<%= @path %>">
     <meta name="twitter:card" content="summary" />
