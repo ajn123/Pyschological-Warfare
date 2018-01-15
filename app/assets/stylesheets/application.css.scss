@@ -191,3 +191,10 @@ p {
 pre {
   font-size: 24;
 }
+
+
+.floating.message {
+  z-index: 2;
+
+  margin-bottom: 30px;
+}
