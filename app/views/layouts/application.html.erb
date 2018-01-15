@@ -21,33 +21,35 @@
 
     <%= favicon_link_tag("favicon.ico") %>
 
+    <meta property="og:title" content="Psychological Warfare Podcast">
+    <meta property="og:description" content="A podcast discussing the current state of politics, psychology, climate, and theory.">
+
+
+      <meta property="og:image" content="http://placehold.it/300">>
+      <meta property="og:url" content="http://psychowarfare.com">
+
+
   </head>
 
   <body>
 
-
-
-
-
   <%= render 'topBar' %>
-  <div class="topHeader">
 
-  <% if current_page?(controller: 'home', action: 'index')  %>
-    <%= render 'masthead' %>
-  <% end %>
+    <div class="topHeader">
 
-   <div class="ui centered  grid vertical stripe segment">
+      <% if current_page?(controller: 'home', action: 'index')  %>
+        <%= render 'masthead' %>
+      <% end %>
 
-     <div class="ui twelve wide column">
+     <div class="ui centered  grid vertical stripe segment">
 
-       <%= yield %>
+       <div class="ui twelve wide column">
 
+         <%= yield %>
+
+       </div>
      </div>
-
-
    </div>
- </div>
-
 
     <%= render 'emailModal' %>
     <%= render 'footer' %>

@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-
-
   get 'home/listen'
 
   get 'article/create'
