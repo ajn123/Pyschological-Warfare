@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the revolution with Charles Derber"
 header_image: "revolution.jpg"
-published: false
+published: true
 written_at_date: 22-01-2018
 tags: ["Politics", "Inspiration"]
 useful_links: { "Book: Welcome to the Revolution": "https://www.amazon.com/Welcome-Revolution-Universalizing-Resistance-Democracy/dp/1138648205/ref=sr_1_1?ie=UTF8&qid=1516658246&sr=8-1&keywords=welcome+to+the+revolution" }
