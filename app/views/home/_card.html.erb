@@ -1,0 +1,17 @@
+<div class="card home_index_image">
+  <div class="ui fluid image">
+    <% if article.media != "podcast" && !article.media.nil? %>
+      <div class="ui blue right ribbon label">
+        <i class="comment icon"></i> <%= article.media %>
+      </div>
+    <% end %>
+  <%= link_to(show_page_path(article), class: "image home_index_image") do %>
+    <%= image_tag article.header_image %>
+
+  </div>
+      <div class="archive-home__content">
+         <h3> <%= article.title %> </h3>
+         <h5> <%= article.published_date %> </h5>
+      </div>
+  <% end %>
+</div>

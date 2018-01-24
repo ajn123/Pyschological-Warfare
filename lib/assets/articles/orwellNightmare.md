@@ -1,9 +1,10 @@
 ---
 title: "Orwell's warning worse than he dreamed"
 header_image: "orwell.jpg"
-published: false
+published: true
 written_at_date: 19-01-2018
 tags: ["Politics"]
+media: "blog"
 useful_links: { "1984" : "https://www.goodreads.com/book/show/5470.1984",
 "Animal Farm" : "https://www.amazon.com/Animal-farm-Fairy-George-Orwell/dp/0451526341" }
 people_mentioned: {"George Orwell" : "https://en.wikipedia.org/wiki/George_Orwell"}

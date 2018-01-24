@@ -3,6 +3,7 @@ title: "YOUR TITLE HERE"
 header_image: "logo.png"
 published: false
 written_at_date: DD-MM-YYYY
+media: "podcast"
 tags: ["Entrepreneurship", "Inspiration"]
 useful_links: { "The people's choice": "https://github.com/steveklabnik/metadown" }
 people_mentioned: {"Bille Gates": "https://twitter.com/BillGates"}

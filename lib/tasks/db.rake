@@ -22,7 +22,7 @@ namespace :db do
         contents = f.read
         mkdown = Metadown.render(contents)
         md = mkdown.metadata
-        
+
         unrendered_content = contents.sub(/^---(\n|.)*---/, '')
         #puts unrendered_content
 
@@ -38,7 +38,8 @@ namespace :db do
                         people_mentioned: md["people_mentioned"],
                         written_at_date: md["written_at_date"],
                         timestamp: md["timestamp"],
-                        embedded_link: md["embedded_link"])
+                        embedded_link: md["embedded_link"],
+                        media: md["media"])
 
 
         article.add_tag(md["tags"])
@@ -49,12 +50,12 @@ namespace :db do
 
       end
     end
-    
+
     puts "Article Count: #{Article.count}"
   end
 
-  desc 'destroy all user models' 
-  task destroy_users: :environment do    
+  desc 'destroy all user models'
+  task destroy_users: :environment do
     User.destroy_all
     puts "Users Destroyed"
 

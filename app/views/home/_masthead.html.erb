@@ -21,7 +21,7 @@
 
 <div class="ui centered text container">
   <h1 class="ui horizontal header divider">
-    Recent Episodes
+    Recent Content
   </h1>
 
 </div>
@@ -29,19 +29,9 @@
 <!-- Following Menu -->
 <div class="ui centered grid vertical stripe segment">
 
-
-
   <div class="ui three stackable cards">
-
     <% @mast_head.each do |article| %>
-      <div class="card">
-        <%= link_to(show_page_path(article), class: "ui medium image home_index_image") do %>
-          <%= image_tag article.header_image %>
-            <div class="archive-home__content">
-               <h4> <%= article.title %> </h4>
-            </div>
-        <% end %>
-      </div>
+      <%= render 'home/card', article: article %>
     <% end %>
   </div>
 
