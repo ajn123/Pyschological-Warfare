@@ -5,13 +5,13 @@
     Get Updates From Us! Articles & Videos - No spam I promise :)
   </div>
   <div class="ui massive icon input header">
-<%= form_for User.new(), url: { action: "create_email" }, html: {class: ""}, remote: true do |f| %>
+<%= form_for User.new(), url: { controller: "application" ,action: "create_email" }, html: {class: ""}, remote: true do |f| %>
 
 <%= text_field(:user, :name, id: "name_input", class: "input", placeholder: "Your Name...") %>
 
 <%= text_field(:user, :email, id: "email_input", class: "input", placeholder: "Your Email...") %>
 </div>
-   
+
   <div class="actions">
     <div class="ui red basic deny inverted button">
       <i class="remove icon"></i>
@@ -19,11 +19,11 @@
     </div>
 
       <%= button_tag type: "submit", class: "ui green approve inverted button" do %>
-   <i class="checkmark icon"></i>
-      Yes
+       <i class="checkmark icon"></i>
+        Yes
     <% end %>
 <% end %>
-      
+
     </div>
   </div>
 </div>

@@ -11,24 +11,3 @@
 
 
 -->
-
-<div class="ui centered text container">
-  <h1 class="ui horizontal header divider">
-    All Episodes
-  </h1>
-</div>
-
-
-<div class="ui three stackable cards">
-  <% @articles.each do |article| %>
-    <div class="card">
-      <%= link_to(show_page_path(article), class: "image home_index_image") do %>
-        <%= image_tag article.header_image %>
-          <div class="archive-home__content">
-             <h3> <%= article.title %> </h3>
-             <h5> <%= article.published_date %> </h5>
-          </div>
-      <% end %>
-    </div>
-  <% end %>
-</div>

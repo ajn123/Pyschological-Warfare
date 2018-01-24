@@ -5,24 +5,12 @@ class HomeController < ApplicationController
   def index
     @social = {"twitter": "Tweet", "facebook": "Share", "mail": "E-mail"}
     @mast_head = Article.first(3)
-    @articles = Article.all
     @is_root = true
   end
 
   def show
     @article = Article.friendly.find(params[:id])
     @comments = @article.comments.with_state([:draft, :published])
-  end
-
-  def create_email
-    @new_user = User.new(user_params)
-
-    if @new_user.valid?
-       HardWorker.perform_async([@new_user.name, @new_user.email])
-    end
-  	respond_to do |f|
-  		f.js { render layout: false }
-  	end
   end
 
   def search
@@ -42,8 +30,5 @@ class HomeController < ApplicationController
     end
   end
 
-  private
-  	def user_params
-  		params.require(:user).permit(:name, :email)
-  	end
+
 end

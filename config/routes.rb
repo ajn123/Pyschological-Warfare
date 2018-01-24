@@ -3,9 +3,6 @@ Rails.application.routes.draw do
   get 'home/listen'
 
   get 'article/create'
-
-  get 'article/index'
-
   get 'home/contact'
 
   root "home#index"
@@ -14,7 +11,9 @@ Rails.application.routes.draw do
 
   get 'home/email'
 
-  post '/create_email', to: 'home#create_email', as: :create_email
+  post '/create_email', to: 'application#create_email', as: :create_email
+
+
 
   get 'article/:id', to: 'home#show', as: :show_page
 

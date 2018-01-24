@@ -22,7 +22,7 @@
     <%= favicon_link_tag("favicon.ico") %>
 
     <% if @article.nil?  %>
-      <meta property="og:image" content="<%=asset_url('newLogo.png') %>" >
+      <meta property="og:image" content="<%=asset_url('newLogo2.png') %>" >
       <meta property="og:description" content="A podcast discussing the current state of politics, psychology, climate, and theory.">
       <meta property="og:title" content="Psychological Warfare Podcast">
 
@@ -41,7 +41,7 @@
 
   <body>
 
-  <%= render 'topBar' %>
+  <%= render 'home/topBar' %>
 
     <div class="topHeader">
 
@@ -58,9 +58,8 @@
        </div>
      </div>
    </div>
-
-    <%= render 'emailModal' %>
-    <%= render 'footer' %>
-    <%= render 'messages' %>
+    <%= render 'home/emailModal' %>
+    <%= render 'home/footer' %>
+    <%= render 'home/messages' %>
   </body>
 </html>
