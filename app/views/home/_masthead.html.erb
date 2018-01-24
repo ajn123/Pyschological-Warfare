@@ -23,12 +23,16 @@
   <h1 class="ui horizontal header divider">
     Recent Episodes
   </h1>
+
 </div>
+
 <!-- Following Menu -->
 <div class="ui centered grid vertical stripe segment">
 
 
+
   <div class="ui three stackable cards">
+
     <% @mast_head.each do |article| %>
       <div class="card">
         <%= link_to(show_page_path(article), class: "ui medium image home_index_image") do %>
@@ -38,6 +42,14 @@
             </div>
         <% end %>
       </div>
+    <% end %>
+  </div>
+
+  <div class="ui text container" style="padding-top: 20px">
+    <%= link_to(articles_path) do %>
+    <div class="ui huge centered aligned circular primary button">
+      <i class="podcast icon"></i>All Episodes
+    </div>
     <% end %>
   </div>
 </div>

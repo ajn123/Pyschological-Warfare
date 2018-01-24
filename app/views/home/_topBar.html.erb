@@ -56,7 +56,7 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  <a class="active item">Home</a>
+  <%= link_to("Home", root_path , class: "item") %>
   <%= link_to("Episodes", articles_path , class: "item") %>
   <%= link_to("Listen", home_listen_path , class: "item") %>
   <%= link_to "https://twitter.com/PsychoWarfareHQ", target: :blank, class: "item"  do  %>
