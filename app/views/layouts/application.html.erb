@@ -28,7 +28,7 @@
 
     <% else %>
       <meta property="og:image" content="<%= asset_url(@article.header_image) %>" >
-      <meta property="og:description" content=" <%= truncate(ActionView::Base.full_sanitizer.sanitize(@article.content.html_safe), length: 100) %>">
+      <meta property="og:description" content="<%= truncate(ActionView::Base.full_sanitizer.sanitize(@article.content.html_safe), length: 100) %>">
       <meta property="og:title" content="<%= @article.title %>">
 
     <% end %>
