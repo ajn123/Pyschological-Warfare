@@ -48,10 +48,8 @@
 
 
     <% if  @read_more == false %>
-      <% if article.media == "blog" %>
 
        <%=  article.content.html_safe %>
-      <% end %>
     <% else %>
         <%= truncate(ActionView::Base.full_sanitizer.sanitize(article.content.html_safe), length: 300) %>
     <% end %>
