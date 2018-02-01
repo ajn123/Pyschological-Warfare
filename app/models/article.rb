@@ -28,6 +28,8 @@ class Article < ApplicationRecord
     ['', self.class.to_s.tableize, id].join('/')
   end
 
+
+
   def commentable_state
     :published.to_s
   end
