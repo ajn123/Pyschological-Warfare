@@ -1,6 +1,6 @@
 ---
 title: "Morris Berman Interview"
-header_image: "berman.jpg"
+header_image: "berman2.jpg"
 published: true
 written_at_date: 20-02-2018
 media: "podcast"
