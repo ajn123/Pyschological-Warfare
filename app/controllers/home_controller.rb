@@ -4,12 +4,12 @@ class HomeController < ApplicationController
 
   def index
     @social = {"twitter": "Tweet", "facebook": "Share", "mail": "E-mail"}
-    @mast_head = Article.first(3)
+    @mast_head = Article.published.friendly.first(3)
     @is_root = true
   end
 
   def show
-    @article = Article.friendly.find(params[:id])
+    @article = Article.published.friendly.find(params[:id])
     @comments = @article.comments.with_state([:draft, :published])
   end
 

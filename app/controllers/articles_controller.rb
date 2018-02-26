@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
     before_action :default_values
 
   def index
-    @articles = Article.all
+    @articles = Article.published
     @is_root = true
     respond_to do |format|
       format.html

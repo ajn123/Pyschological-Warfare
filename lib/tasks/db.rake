@@ -50,7 +50,7 @@ namespace :db do
 
       end
     end
-
+    Article.find_each(&:save)
     puts "Article Count: #{Article.count}"
   end
 

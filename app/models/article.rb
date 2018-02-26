@@ -3,7 +3,7 @@ require "acts-as-taggable-on"
 class Article < ApplicationRecord
 	include TheComments::Commentable
 	extend FriendlyId
-	friendly_id :title
+  friendly_id :title, use: :slugged
 
 	belongs_to :user, optional: true
 
@@ -15,7 +15,7 @@ class Article < ApplicationRecord
 
   # validates :embedded_link, presence: { message: "needs a Podcast link" }, uniqueness: true
 
-  default_scope { order('written_at_date DESC, updated_at').where(published: true) }
+  scope :published, -> { order('written_at_date DESC, updated_at').where(published: true) }
 
 	scope :index_page, -> { offset(3) }
   # Denormalization methods
@@ -27,8 +27,6 @@ class Article < ApplicationRecord
   def commentable_url
     ['', self.class.to_s.tableize, id].join('/')
   end
-
-
 
   def commentable_state
     :published.to_s
@@ -45,7 +43,7 @@ class Article < ApplicationRecord
 
   # Get tags all excluding itself
   def recommended_articles
-    Article.tagged_with(self.tag_list, any: true).where.not(id: "#{self.id}").sample(5)
+    Article.published.tagged_with(self.tag_list, any: true).where.not(id: "#{self.id}").sample(5)
   end
 
 	def search_content
@@ -53,6 +51,10 @@ class Article < ApplicationRecord
 	end
 
 
+private
 
+  def should_generate_new_friendly_id?
+    attribute_changed?('title') && !title.empty?
+  end
 
 end
