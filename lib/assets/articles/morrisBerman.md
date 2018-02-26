@@ -14,4 +14,4 @@ embedded_link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.co
 user_id: 1
 ---
 
-I interview historian and cultural critic Morris Berman.  Professor Berman has written extensively on the decline of the US empire and what to for look beyond industrial capitalism.  Questions from this book are from his latest book: Are We There Yet?
+I interview historian and cultural critic Morris Berman.  Professor Berman has written extensively on the decline of the US empire and what to for look beyond industrial capitalism.  Questions from this interview are from his latest book: Are We There Yet?
