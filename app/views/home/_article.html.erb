@@ -47,12 +47,9 @@
     </h1>
 
 
-    <% if  @read_more == false %>
+      
+    <%= read_more?(article, @read_more) %>
 
-       <%=  article.content.html_safe %>
-    <% else %>
-        <%= truncate(ActionView::Base.full_sanitizer.sanitize(article.content.html_safe), length: 300) %>
-    <% end %>
 
   </div>
 
