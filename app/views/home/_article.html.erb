@@ -70,32 +70,19 @@
     </ul>
 <% end %>
 
+      <% article.timestamp.each do |item| %>
+          <%= item %>
+      <% end %>
 
-<!--
-      <div class="ui horizontal divider">
-        Show Notes
-     </div>
-     <ul class="ui ordered list">
-
-       <% article.timestamp.each do |item| %>
-         <li>
-           <%= item %>
-         </li>
-       <% end %>
-    </ul>
--->
  <% if article.people_mentioned.count > 0 %>
-   <!-- true -->
       <div class="ui horizontal divider">
-        People Mentioned
-     </div>
-     <ul class="">
-       <% article.people_mentioned.each do |key, value| %>
-         <li>
-           <%= link_to "#{key}", value, target: :blank, class: "ui blue tag label" %>
-         </li>
-       <% end %>
-    </ul>
-
-
+          People Mentioned
+      </div>
+      <ul class="">
+        <% article.people_mentioned.each do |key, value| %>
+          <li>
+            <%= link_to "#{key}", value, target: :blank, class: "ui blue tag label" %>
+          </li>
+        <% end %>
+      </ul>
   <% end %>
