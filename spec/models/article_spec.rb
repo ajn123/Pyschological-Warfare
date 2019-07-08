@@ -9,9 +9,9 @@ RSpec.describe Article, type: :model do
 
 
 		it 'not be valid, missing embedded_link' do 
-				aritcle = build(:article)
+        article = Article.new
 
-				expect(article).to be_valid
+				expect(article).to_not be_valid
 		end
 
 	#	it 'be valid, missing embedded_link' do 

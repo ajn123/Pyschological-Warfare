@@ -18,8 +18,10 @@ class ApplicationController < ActionController::Base
        HardWorker.perform_async([@new_user.name, @new_user.email])
     end
   	respond_to do |f|
-  		f.js { render layout: false }
+  		f.all { head :no_content }
+
   	end
+
   end
 
 

@@ -13,7 +13,7 @@ class Article < ApplicationRecord
   serialize :people_mentioned, Hash
   serialize :timestamp, Array
 
-  # validates :embedded_link, presence: { message: "needs a Podcast link" }, uniqueness: true
+  validates :embedded_link, presence: { message: "needs a Podcast link" }, uniqueness: true
 
   scope :published, -> { order('written_at_date DESC, updated_at').where(published: true) }
 
@@ -54,7 +54,7 @@ class Article < ApplicationRecord
 private
 
   def should_generate_new_friendly_id?
-    attribute_changed?('title') && !title.empty?
+    saved_change_to_attribute?('title') && !title.empty?
   end
 
 end
