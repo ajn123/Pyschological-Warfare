@@ -19,7 +19,6 @@ class ApplicationController < ActionController::Base
     end
   	respond_to do |f|
   		f.all { head :no_content }
-
   	end
 
   end

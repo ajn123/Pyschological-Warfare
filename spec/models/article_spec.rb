@@ -10,7 +10,6 @@ RSpec.describe Article, type: :model do
 
 		it 'not be valid, missing embedded_link' do 
         article = Article.new
-
 				expect(article).to_not be_valid
 		end
 

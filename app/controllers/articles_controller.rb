@@ -1,7 +1,6 @@
 class ArticlesController < ApplicationController
 
-
-    before_action :default_values
+  before_action :default_values
 
   def index
     @articles = Article.published
@@ -15,7 +14,6 @@ class ArticlesController < ApplicationController
   def create
   	Article.create(article_params)
   end
-
 
   def default_values
     @read_more = false

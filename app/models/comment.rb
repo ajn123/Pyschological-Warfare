@@ -3,7 +3,6 @@ class Comment < ActiveRecord::Base
 
   after_create :comment_created
 
-
   def comment_created
     CommentsWorker.perform_async([self.title, self.contacts, self.content, self.commentable_title])
   end

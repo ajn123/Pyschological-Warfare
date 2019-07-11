@@ -13,8 +13,6 @@ Rails.application.routes.draw do
 
   post '/create_email', to: 'application#create_email', as: :create_email
 
-
-
   get 'article/:id', to: 'home#show', as: :show_page
 
   get 'home/search/:tag', to: "home#search", as: :search
