@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 class Comment < ActiveRecord::Base
   include TheComments::Comment
 
   after_create :comment_created
 
   def comment_created
-    CommentsWorker.perform_async([self.title, self.contacts, self.content, self.commentable_title])
+    CommentsWorker.perform_async([title, contacts, content, commentable_title])
   end
   # ---------------------------------------------------
   # Define comment's avatar url
@@ -12,7 +14,6 @@ class Comment < ActiveRecord::Base
   # @blog.comments.includes(:user) <= use includes(:user) to decrease queries count
   # comment#user.avatar_url
   # ---------------------------------------------------
-
 
   # public
   # ---------------------------------------------------

@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 # This migration comes from the_comments_engine (originally 20130101010103)
 class TheCommentsChangeCommentable < ActiveRecord::Migration[4.2]
   def change
     # Uncomment this. Add fields to Commentable Models
     #
-     [:articles].each do |table_name|
-       change_table table_name do |t|
-         t.integer :draft_comments_count,     default: 0
-         t.integer :published_comments_count, default: 0
-         t.integer :deleted_comments_count,   default: 0
-       end
-     end
+    [:articles].each do |table_name|
+      change_table table_name do |t|
+        t.integer :draft_comments_count,     default: 0
+        t.integer :published_comments_count, default: 0
+        t.integer :deleted_comments_count,   default: 0
+      end
+    end
   end
 end

@@ -1,16 +1,17 @@
-class HomeController < ApplicationController
+# frozen_string_literal: true
 
+class HomeController < ApplicationController
   before_action :default_values
 
   def index
-    @social = {"twitter": "Tweet", "facebook": "Share", "mail": "E-mail"}
+    @social = { "twitter": 'Tweet', "facebook": 'Share', "mail": 'E-mail' }
     @mast_head = Article.published.friendly.first(3)
     @is_root = true
   end
 
   def show
     @article = Article.published.friendly.find(params[:id])
-    @comments = @article.comments.with_state([:draft, :published])
+    @comments = @article.comments.with_state(%i[draft published])
   end
 
   def search
@@ -25,10 +26,6 @@ class HomeController < ApplicationController
   def default_values
     @read_more = false
     @is_root = false
-    if self.action_name == "index"
-      @read_more = true
-    end
+    @read_more = true if action_name == 'index'
   end
-
-
 end

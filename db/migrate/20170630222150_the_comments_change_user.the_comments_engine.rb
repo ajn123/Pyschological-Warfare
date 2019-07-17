@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This migration comes from the_comments_engine (originally 20130101010101)
 # null: false => de-facto db-level validation
 class TheCommentsChangeUser < ActiveRecord::Migration[4.2]
